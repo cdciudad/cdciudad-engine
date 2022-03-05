@@ -1,7 +1,6 @@
-from unittest import result
-from app import util
-from app.data.db import SubscribersRepository
-from app.models.subscriber import Subscriber
+from app.src import util
+from app.src.data.db import SubscribersRepository
+from app.src.models.subscriber import Subscriber
 
 repository = SubscribersRepository()
 

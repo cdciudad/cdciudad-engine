@@ -1,10 +1,11 @@
 # Fast API
+from app import logger
 from fastapi import FastAPI
-from app.email.service import send_email
-from app.routers import subscribers
+from app.src.routers import subscribers
 
 app = FastAPI()
-send_email()
 
 # Routes
 app.include_router(subscribers.router)
+
+logger.info("Server is running in port 8000")

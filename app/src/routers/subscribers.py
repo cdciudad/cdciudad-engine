@@ -3,8 +3,8 @@ from fastapi import APIRouter, status
 from fastapi.params import Body
 
 # Models
-from app.models.subscriber import Subscriber
-from app.services.subscribers import SubscribersService
+from app.src.models.subscriber import Subscriber
+from app.src.services.subscribers import SubscribersService
 
 router = APIRouter()
 service = SubscribersService()
