@@ -19,3 +19,8 @@ service = SubscribersService()
 )
 def subscribe(sub: Subscriber = Body(...)):
     return service.subscribe(sub)
+
+
+@router.get("/")
+def getall():
+    return service.get_weekly_subscribers()

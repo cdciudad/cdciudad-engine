@@ -13,3 +13,9 @@ def serialize(d: Dict):
         if type(val) in [UUID, datetime, date]:
             d[key] = str(val)
     return d
+
+
+def check_last_week(creation_date):
+    creation_date = datetime.strptime(creation_date, "%Y-%m-%d %H:%M:%S.%f")
+    today = datetime.now()
+    return (today - creation_date).days < 7
