@@ -14,7 +14,7 @@ message = '''
 No respondas directamente este correo electrónico
 Copyright © 2022, Casa de la Ciudad | Frente a la Catedral de Cartago, Avenida Central, C. 6, Provincia de Cartago, Costa Rica
 '''
-t_day, t_hour, t_min, t_sec, t_mic = ("Sunday", 0, 24, 0, 0)
+t_day, t_hour, t_min, t_sec, t_mic = ("Thursday", 10, 10, 0, 0)
 bussy = False
 
 
