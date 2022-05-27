@@ -13,14 +13,15 @@ service = SubscribersService()
 
 
 @router.post(
-    path="/subscribe",
+    path="/new",
     response_model=Subscriber,
-    status_code=status.HTTP_201_CREATED
+    status_code=status.HTTP_201_CREATED,
+    tags=["subscribers"]
 )
 def subscribe(sub: Subscriber = Body(...)):
     return service.subscribe(sub)
 
 
-@router.get("/")
-def getall():
+@router.get(path="/", tags=["subscribers"])
+def get_subscribers():
     return service.get_weekly_subscribers()
