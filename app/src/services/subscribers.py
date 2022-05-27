@@ -1,5 +1,5 @@
 from app.src import util
-from app.src.data.db import SubscribersRepository
+from app.src.database.db import SubscribersRepository
 from app.src.models.subscriber import Subscriber
 
 repository = SubscribersRepository()
@@ -23,4 +23,3 @@ class SubscribersService:
         weekly_subs = [
             sub for sub in subs if util.check_last_week(sub["created_at"])]
         return weekly_subs
-
