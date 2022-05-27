@@ -1,5 +1,5 @@
 # Python
-from typing import List
+from typing import List, Optional
 from uuid import UUID, uuid4
 from typing_extensions import TypedDict
 
@@ -48,4 +48,4 @@ class Administrative(Staff):
 
     department: AdministrativeDepartment = Field(...)
     what_i_do: List[str] = Field(...)
-    contact: Contact = Field(...)
+    contact: Optional[Contact] = Field()

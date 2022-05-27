@@ -58,8 +58,12 @@ def get_teacher_by_id(request: Request, _id: str):
     status_code=status.HTTP_201_CREATED,
     tags=["Administrative Staff"]
 )
-def create_administrative(administrative: Administrative = Body(...)):
-    return administrative
+def create_administrative(request: Request, administrative: Administrative = Body(...)):
+    staff = jsonable_encoder(administrative)
+    new_staff = request.app.database["administrative_staff"].insert_one(staff)
+    created_staff = request.app.database["administrative_staff"].find_one(
+        {"_id": new_staff.inserted_id})
+    return created_staff
 
 
 @router.get(
@@ -68,8 +72,9 @@ def create_administrative(administrative: Administrative = Body(...)):
     status_code=status.HTTP_200_OK,
     tags=["Administrative Staff"]
 )
-def get_administrative_staff():
-    return 'ok'
+def get_administrative_staff(request: Request):
+    staff = list(request.app.database["administrative_staff"].find(limit=100))
+    return staff
 
 
 @router.get(
@@ -78,5 +83,8 @@ def get_administrative_staff():
     status_code=status.HTTP_200_OK,
     tags=["Administrative Staff"]
 )
-def get_administrative_by_id(_id: str):
-    return 'ok'
+def get_administrative_by_id(request: Request, _id: str):
+    if (staff := request.app.database["administrative_staff"].find_one({"_id": _id})) is not None:
+        return staff
+    raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
+                        detail=f"Administrative with ID {_id} not found")
