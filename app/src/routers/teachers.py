@@ -13,10 +13,9 @@ router = APIRouter()
     path="/teacher/new",
     response_model=Teacher,
     status_code=status.HTTP_201_CREATED,
-    tags=["Teachers"],
-    summary="Create Teacher"
+    tags=["Teachers"]
 )
-def create_person(teacher: Teacher = Body(...)):
+def create_teacher(teacher: Teacher = Body(...)):
     return teacher
 
 

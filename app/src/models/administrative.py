@@ -1,5 +1,6 @@
 # Python
-from typing import List, TypedDict
+from typing import List
+from typing_extensions import TypedDict
 
 # Pydantic
 from pydantic.fields import Field
@@ -18,6 +19,6 @@ class Contact(TypedDict):
 
 class Administrative(Staff):
 
-    department: Department = Field(...)
+    department: AdministrativeDepartment = Field(...)
     what_i_do: List[str] = Field(...)
     contact: Contact = Field(...)
