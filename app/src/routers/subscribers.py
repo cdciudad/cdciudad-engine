@@ -1,15 +1,13 @@
 # FastAPI
-from fastapi import APIRouter, status
+from typing import List
+from fastapi import APIRouter, HTTPException, Request, status
 from fastapi.params import Body
+from fastapi.encoders import jsonable_encoder
 
 # Models
 from app.src.models.subscriber import Subscriber
-from app.src.services.subscribers import SubscribersService
 
 router = APIRouter()
-service = SubscribersService()
-
-# Path Operations
 
 
 @router.post(
@@ -18,10 +16,20 @@ service = SubscribersService()
     status_code=status.HTTP_201_CREATED,
     tags=["Subscribers"]
 )
-def subscribe(sub: Subscriber = Body(...)):
-    return service.subscribe(sub)
+def subscribe(request: Request, sub: Subscriber = Body(...)):
+    if (s := request.app.database["subscribers"].find_one({"email": sub.email})) is None:
+        print("in")
+        subscriber = jsonable_encoder(sub)
+        new_sub = request.app.database["subscribers"].insert_one(subscriber)
+        created_sub = request.app.database["subscribers"].find_one(
+            {"_id": new_sub.inserted_id})
+        return created_sub
+
+    raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST,
+                        detail=f"Email {subscriber.email} is already subscribed")
 
 
-@router.get(path="/", tags=["Subscribers"])
-def get_subscribers():
-    return service.get_weekly_subscribers()
+@router.get(path="/", response_model=List[Subscriber], tags=["Subscribers"])
+def get_subscribers(request: Request):
+    subs = list(request.app.database["subscribers"].find(limit=100))
+    return subs
