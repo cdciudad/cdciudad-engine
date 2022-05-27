@@ -8,6 +8,7 @@ from pydantic.fields import Field
 from pydantic.networks import EmailStr
 from pydantic import BaseModel
 
+# Models
 from app.src.models.department import AdministrativeDepartment, TeachingDepartment
 
 

@@ -1,15 +1,16 @@
 # FastAPI
 from typing import List
-from fastapi import APIRouter, status
+from fastapi import APIRouter, Request, status, HTTPException
 from fastapi.params import Body
+from fastapi.encoders import jsonable_encoder
 
 # Models
 from app.src.models.staff import Teacher, Administrative
 
 router = APIRouter()
 
-# Teachers
 
+# Teachers
 
 @router.post(
     path="/teacher/new",
@@ -17,8 +18,12 @@ router = APIRouter()
     status_code=status.HTTP_201_CREATED,
     tags=["Teachers"]
 )
-def create_teacher(teacher: Teacher = Body(...)):
-    return teacher
+def create_teacher(request: Request, teacher: Teacher = Body(...)):
+    teacher = jsonable_encoder(teacher)
+    new_teacher = request.app.database["teachers"].insert_one(teacher)
+    created_teacher = request.app.database["teachers"].find_one(
+        {"_id": new_teacher.inserted_id})
+    return created_teacher
 
 
 @router.get(
@@ -27,8 +32,9 @@ def create_teacher(teacher: Teacher = Body(...)):
     status_code=status.HTTP_200_OK,
     tags=["Teachers"]
 )
-def get_teachers():
-    return 'ok'
+def get_teachers(request: Request):
+    teachers = list(request.app.database["teachers"].find(limit=100))
+    return teachers
 
 
 @router.get(
@@ -37,11 +43,15 @@ def get_teachers():
     status_code=status.HTTP_200_OK,
     tags=["Teachers"]
 )
-def get_teacher_by_id(_id: str):
-    return 'ok'
+def get_teacher_by_id(request: Request, _id: str):
+    if (teacher := request.app.database["teachers"].find_one({"_id": _id})) is not None:
+        return teacher
+    raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
+                        detail=f"Teacher with ID {_id} not found")
 
 
 # Administrative Staff
+
 @router.post(
     path="/admin/new",
     response_model=Administrative,

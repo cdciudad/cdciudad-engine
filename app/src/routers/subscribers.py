@@ -16,12 +16,12 @@ service = SubscribersService()
     path="/new",
     response_model=Subscriber,
     status_code=status.HTTP_201_CREATED,
-    tags=["subscribers"]
+    tags=["Subscribers"]
 )
 def subscribe(sub: Subscriber = Body(...)):
     return service.subscribe(sub)
 
 
-@router.get(path="/", tags=["subscribers"])
+@router.get(path="/", tags=["Subscribers"])
 def get_subscribers():
     return service.get_weekly_subscribers()
