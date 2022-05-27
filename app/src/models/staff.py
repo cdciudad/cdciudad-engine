@@ -7,16 +7,12 @@ from typing import List
 from pydantic import BaseModel
 from pydantic.fields import Field
 
-# Department
-from app.src.models.department import Department
-
 
 class Staff(BaseModel):
 
     id: UUID = Field(default=uuid4(), alias='_id')
 
     name: str = Field(...)
-    department: Department = Field(...)
     hello_there: str = Field(...)
     experience: str = Field(...)
 

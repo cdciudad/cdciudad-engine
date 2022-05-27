@@ -5,8 +5,9 @@ from typing import List, TypedDict
 from pydantic.fields import Field
 from pydantic.networks import EmailStr
 
-# Staff
+# Models
 from app.src.models.staff import Staff
+from app.src.models.department import AdministrativeDepartment
 
 
 class Contact(TypedDict):
@@ -17,5 +18,6 @@ class Contact(TypedDict):
 
 class Administrative(Staff):
 
+    department: Department = Field(...)
     what_i_do: List[str] = Field(...)
     contact: Contact = Field(...)
