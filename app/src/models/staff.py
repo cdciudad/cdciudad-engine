@@ -1,11 +1,14 @@
 # Python
-from doctest import Example
-from uuid import UUID, uuid4
 from typing import List
+from uuid import UUID, uuid4
+from typing_extensions import TypedDict
 
 # Pydantic
-from pydantic import BaseModel
 from pydantic.fields import Field
+from pydantic.networks import EmailStr
+from pydantic import BaseModel
+
+from app.src.models.department import AdministrativeDepartment, TeachingDepartment
 
 
 class Staff(BaseModel):
@@ -25,3 +28,23 @@ class Staff(BaseModel):
 
     class Config:
         allow_population_by_field_name = True
+
+
+class Teacher(Staff):
+
+    department: TeachingDepartment = Field(...)
+    schooling: List[str] = Field(...)
+    courses: List[str] = Field(...)
+
+
+class Contact(TypedDict):
+    email: EmailStr
+    phone: str
+    office_hours: str
+
+
+class Administrative(Staff):
+
+    department: AdministrativeDepartment = Field(...)
+    what_i_do: List[str] = Field(...)
+    contact: Contact = Field(...)
