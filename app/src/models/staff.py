@@ -36,6 +36,7 @@ class Teacher(Staff):
     department: TeachingDepartment = Field(...)
     schooling: List[str] = Field(...)
     courses: List[str] = Field(...)
+    gallery: List[str] = Field(...)
 
 
 class Contact(TypedDict):

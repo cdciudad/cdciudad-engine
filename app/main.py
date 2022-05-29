@@ -2,7 +2,7 @@
 from dotenv import dotenv_values
 from fastapi import FastAPI, status
 from pymongo import MongoClient
-from app.src.routers import services, staff, subscribers
+from app.src.routers import history, payments, services, staff, subscribers
 
 config = dotenv_values(".env")
 
@@ -33,3 +33,5 @@ def home():
 app.include_router(subscribers.router, prefix="/subscriber")
 app.include_router(staff.router, prefix="/staff")
 app.include_router(services.router, prefix="/service")
+app.include_router(payments.router, prefix="/payment")
+app.include_router(history.router, prefix="/history")

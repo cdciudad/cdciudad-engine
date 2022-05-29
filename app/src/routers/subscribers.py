@@ -18,7 +18,6 @@ router = APIRouter()
 )
 def subscribe(request: Request, sub: Subscriber = Body(...)):
     if (s := request.app.database["subscribers"].find_one({"email": sub.email})) is None:
-        print("in")
         subscriber = jsonable_encoder(sub)
         new_sub = request.app.database["subscribers"].insert_one(subscriber)
         created_sub = request.app.database["subscribers"].find_one(

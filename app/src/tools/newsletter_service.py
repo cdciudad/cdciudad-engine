@@ -4,7 +4,6 @@ from datetime import datetime as dt
 
 # App
 from app import logger
-from app.src.services.subscribers import SubscribersService
 from app.src.tools.email_service import send_email
 from app.src.tools.files_service import generate_subscribers_file
 
@@ -21,7 +20,7 @@ bussy = False
 def send_weekly_subscribers():
     global bussy
     logger.info("Send weekly subscribers")
-    subscribers = SubscribersService.get_weekly_subscribers()
+    subscribers = []  # SubscribersService.get_weekly_subscribers()
     generate_subscribers_file(subscribers)
     send_email(message,
                filename="app/src/tools/tmp/subscribers.txt")
