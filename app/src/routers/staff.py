@@ -4,13 +4,14 @@ from fastapi import APIRouter, Request, status, HTTPException
 from fastapi.params import Body
 from fastapi.encoders import jsonable_encoder
 
+# logger
+from app import logger
+
 # Models
 from app.src.models.staff import Teacher, Administrative
 
 router = APIRouter()
 
-
-# Teachers
 
 @router.post(
     path="/teacher/new",
@@ -19,10 +20,21 @@ router = APIRouter()
     tags=["Teachers"]
 )
 def create_teacher(request: Request, teacher: Teacher = Body(...)):
+    """
+    `create_teacher` takes a `Request` object and a `Teacher` object as input, and returns a `Teacher`
+    object
+
+    :param request: Request - This is the request object that is passed to the function
+    :type request: Request
+    :param teacher: Teacher = Body(...)
+    :type teacher: Teacher
+    :return: The created teacher
+    """
     teacher = jsonable_encoder(teacher)
     new_teacher = request.app.database["teachers"].insert_one(teacher)
     created_teacher = request.app.database["teachers"].find_one(
         {"_id": new_teacher.inserted_id})
+    logger.info(f"A new teacher has been added: {teacher.name}")
     return created_teacher
 
 
@@ -33,8 +45,20 @@ def create_teacher(request: Request, teacher: Teacher = Body(...)):
     tags=["Teachers"]
 )
 def get_teachers(request: Request):
-    teachers = list(request.app.database["teachers"].find(limit=100))
-    return teachers
+    """
+    It gets a list of teachers from the database
+
+    :param request: Request
+    :type request: Request
+    :return: A list of teachers
+    """
+    try:
+        logger.info(f"The list of teachers has been requested")
+        teachers = list(request.app.database["teachers"].find(limit=100))
+        return teachers
+    except Exception as e:
+        logger.error(e)
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 
 @router.get(
@@ -44,13 +68,20 @@ def get_teachers(request: Request):
     tags=["Teachers"]
 )
 def get_teacher_by_id(request: Request, _id: str):
+    """
+    If the teacher exists, return it, otherwise raise an exception
+
+    :param request: Request - this is the request object that is passed to the function
+    :type request: Request
+    :param _id: The ID of the teacher to get
+    :type _id: str
+    :return: The teacher with the given ID.
+    """
     if (teacher := request.app.database["teachers"].find_one({"_id": _id})) is not None:
         return teacher
     raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,
                         detail=f"Teacher with ID {_id} not found")
 
-
-# Administrative Staff
 
 @router.post(
     path="/admin/new",
@@ -59,10 +90,20 @@ def get_teacher_by_id(request: Request, _id: str):
     tags=["Administrative Staff"]
 )
 def create_administrative(request: Request, administrative: Administrative = Body(...)):
+    """
+    It creates a new administrative staff member
+
+    :param request: Request - This is the request object that is passed to the function
+    :type request: Request
+    :param administrative: Administrative = Body(...)
+    :type administrative: Administrative
+    :return: The created_staff is being returned.
+    """
     staff = jsonable_encoder(administrative)
     new_staff = request.app.database["administrative_staff"].insert_one(staff)
     created_staff = request.app.database["administrative_staff"].find_one(
         {"_id": new_staff.inserted_id})
+    logger.info(f"A new staff member has been added: {administrative.name}")
     return created_staff
 
 
@@ -73,6 +114,15 @@ def create_administrative(request: Request, administrative: Administrative = Bod
     tags=["Administrative Staff"]
 )
 def get_administrative_staff(request: Request):
+    """
+    `get_administrative_staff` returns a list of the first 100 administrative staff members from the
+    database
+
+    :param request: Request
+    :type request: Request
+    :return: A list of dictionaries.
+    """
+    logger.info(f"The list of the staff has been requested")
     staff = list(request.app.database["administrative_staff"].find(limit=100))
     return staff
 
@@ -84,6 +134,15 @@ def get_administrative_staff(request: Request):
     tags=["Administrative Staff"]
 )
 def get_administrative_by_id(request: Request, _id: str):
+    """
+    It takes a request and an ID, and returns the administrative staff member with that ID
+
+    :param request: Request - This is the request object that is passed to the function
+    :type request: Request
+    :param _id: The ID of the administrative staff member to retrieve
+    :type _id: str
+    :return: The administrative staff with the given ID.
+    """
     if (staff := request.app.database["administrative_staff"].find_one({"_id": _id})) is not None:
         return staff
     raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,

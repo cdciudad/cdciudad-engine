@@ -4,11 +4,13 @@ services:
   app:
     image: cdciudad-server
     environment:
-      - MONGODB_URL="mongodb://db:27017/cdciudad"
+      - MODE=PROD
     depends_on:
       - db
     ports:
       - "8000:80"
+    networks:
+      - app-tier
 
 
   db:
@@ -17,3 +19,9 @@ services:
       - ./mongo/data:/data/db
     ports:
       - "27017:27017"
+    networks:
+      - app-tier
+
+networks:
+  app-tier:
+    driver: bridge

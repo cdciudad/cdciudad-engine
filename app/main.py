@@ -1,18 +1,34 @@
-# Fast API
+# Python
+import os
 from dotenv import dotenv_values
+
+# Fast API
 from fastapi import FastAPI, status
+
+# Pymongo
 from pymongo import MongoClient
+
+# Routers
+from app import logger
 from app.src.routers import history, payments, services, staff, subscribers
 
-config = dotenv_values(".env")
+CONFIG = dotenv_values(".env")
 
 app = FastAPI()
 
 
 @app.on_event("startup")
 def startup_db_client():
-    app.mongodb_client = MongoClient(config["MONGODB_URL"])
-    app.database = app.mongodb_client[config["DB_NAME"]]
+    """
+    It creates a MongoDB client and connects to the database specified in the config file
+    """
+    MONGO_DB_URL = "db" if os.getenv(
+        "MODE") == "PROD" else CONFIG["MONGO_DB_URL"]
+    MONGO_DB_PORT = CONFIG["MONGO_DB_PORT"]
+    logger.info(f"Mongo URL: {MONGO_DB_URL}:{MONGO_DB_PORT}")
+    app.mongodb_client = MongoClient(MONGO_DB_URL, MONGO_DB_PORT)
+    app.database = app.mongodb_client[CONFIG["DB_NAME"]]
+    logger.info("Successful connection to database")
 
 
 @app.on_event("shutdown")
