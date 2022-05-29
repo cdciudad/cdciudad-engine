@@ -21,14 +21,16 @@ router = APIRouter()
 )
 def create_teacher(request: Request, teacher: Teacher = Body(...)):
     """
-    `create_teacher` takes a `Request` object and a `Teacher` object as input, and returns a `Teacher`
-    object
+    ## Create Teacher
 
-    :param request: Request - This is the request object that is passed to the function
-    :type request: Request
-    :param teacher: Teacher = Body(...)
-    :type teacher: Teacher
-    :return: The created teacher
+    It creates a new teacher
+
+    ### Args:
+    - request: Request - This is the request object that is passed to the function
+    - teacher: Teacher - A teacher model with name, greetings, personal information, experience and courses
+
+    ### Returns: 
+    The created teacher
     """
     teacher = jsonable_encoder(teacher)
     new_teacher = request.app.database["teachers"].insert_one(teacher)
