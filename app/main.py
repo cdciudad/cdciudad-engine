@@ -33,8 +33,11 @@ def startup_db_client():
         logger.info(f"Mongo URL: {MONGO_DB_URL}")
         app.mongodb_client = MongoClient(MONGO_DB_URL)
 
-    app.database = app.mongodb_client[CONFIG["DB_NAME"]]
-    logger.info("Successful connection to database")
+    try:
+        app.database = app.mongodb_client[CONFIG["DB_NAME"]]
+        logger.info("Successful connection to database")
+    except:
+        logger.error("Unable to connect to the database")
 
 
 @app.on_event("shutdown")
