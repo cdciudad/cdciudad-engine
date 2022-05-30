@@ -20,13 +20,16 @@ router = APIRouter()
 )
 def subscribe(request: Request, sub: Subscriber = Body(...)):
     """
+    ## Subscribe
+
     If the email address is not already in the database, add it
 
-    :param request: Request - The request object
-    :type request: Request
-    :param sub: Subscriber = Body(...)
-    :type sub: Subscriber
-    :return: The created_sub is being returned.
+    ### Args:
+    - request: Request - The request object
+    - sub: Subscriber = Body(...)
+
+    ### Returns:
+    The created_sub is being returned.
     """
     if (s := request.app.database["subscribers"].find_one({"email": sub.email})) is None:
         subscriber = jsonable_encoder(sub)
@@ -43,11 +46,15 @@ def subscribe(request: Request, sub: Subscriber = Body(...)):
 @router.get(path="/", response_model=List[Subscriber], tags=["Subscribers"])
 def get_subscribers(request: Request):
     """
+    ## Get subscriber
+
     It gets the first 100 subscribers from the database
 
-    :param request: Request
-    :type request: Request
-    :return: A list of dictionaries.
+    ### Args:
+    -  request: Request
+
+    ### Returns:
+    A list of dictionaries.
     """
     subs = list(request.app.database["subscribers"].find(limit=100))
     return subs
