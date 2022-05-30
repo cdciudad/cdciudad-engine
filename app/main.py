@@ -28,16 +28,13 @@ def startup_db_client():
 
     if mode == "PROD":
         logger.info(f"Mongo URL: db:{MONGO_DB_PORT}")
-        app.mongodb_client = MongoClient("db", MONGO_DB_PORT)
+        app.mongodb_client = MongoClient("mongodb://db:27017")
     else:
         logger.info(f"Mongo URL: {MONGO_DB_URL}")
         app.mongodb_client = MongoClient(MONGO_DB_URL)
 
-    try:
-        app.database = app.mongodb_client[CONFIG["DB_NAME"]]
-        logger.info("Successful connection to database")
-    except:
-        logger.error("Unable to connect to the database")
+    app.database = app.mongodb_client[CONFIG["DB_NAME"]]
+    logger.info("Successful connection to database")
 
 
 @app.on_event("shutdown")
