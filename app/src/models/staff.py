@@ -12,7 +12,7 @@ from pydantic import BaseModel
 from app.src.models.department import AdministrativeDepartment, TeachingDepartment
 
 
-class Staff(BaseModel):
+class StaffBase(BaseModel):
 
     id: UUID = Field(default=uuid4(), alias='_id')
 
@@ -34,7 +34,7 @@ class Staff(BaseModel):
         allow_population_by_field_name = True
 
 
-class Teacher(Staff):
+class Teacher(StaffBase):
 
     department: TeachingDepartment = Field(
         ..., example=TeachingDepartment.visual_arts_department)
@@ -51,7 +51,7 @@ class Contact(TypedDict):
     office_hours: str
 
 
-class Administrative(Staff):
+class Staff(StaffBase):
 
     department: AdministrativeDepartment = Field(
         ..., example=AdministrativeDepartment.coordination_department)

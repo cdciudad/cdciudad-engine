@@ -1,11 +1,11 @@
 # FastAPI
-from typing import List
 from fastapi import APIRouter, HTTPException, Request, status
 from fastapi.params import Body
 from fastapi.encoders import jsonable_encoder
 
-# Logger
+# Python
 from app import logger
+from typing import List
 
 # Models
 from app.src.models.service import Service
@@ -21,12 +21,16 @@ router = APIRouter()
 )
 def create_service(request: Request, service: Service = Body(...)):
     """
+    ## Create service
+
     It creates a new service
 
-    :param request: Request - This is the request object that is passed to the function
-    :param service: Service
+    ## Args:
+    - request: Request - This is the request object that is passed to the function
+    - service: Service
 
-    :return: The created service.
+    ## Returns: 
+    The created service.
     """
     service = jsonable_encoder(service)
     new_service = request.app.database["services"].insert_one(service)
@@ -44,11 +48,15 @@ def create_service(request: Request, service: Service = Body(...)):
 )
 def get_services(request: Request):
     """
+    ## Get services
+
     It gets a list of services from the database
 
-    :param request: Request
+    ## Args:
+    - request: Request
 
-    :return: A list of services
+    ## Returns: 
+    A list of services
     """
     logger.info(f"The list of services has been requested")
     services = list(request.app.database["services"].find(limit=100))
@@ -63,12 +71,16 @@ def get_services(request: Request):
 )
 def get_service_by_id(request: Request, _id: str):
     """
+    ## Get service by ID
+
     If the service exists, return it, otherwise raise an exception
 
-    :param request: Request - The request object that was sent to the endpoint
-    :param _id: The ID of the service to retrieve
+    ## Args:
+    - request: Request - The request object that was sent to the endpoint
+    - _id: The ID of the service to retrieve
 
-    :return: A service object
+    ## Returns: 
+    A service object
     """
     if (service := request.app.database["services"].find_one({"_id": _id})) is not None:
         return service

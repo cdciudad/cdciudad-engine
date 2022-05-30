@@ -10,7 +10,7 @@ from pymongo import MongoClient
 
 # Routers
 from app import logger
-from app.src.routers import history, payments, services, staff, subscribers
+from app.src.routers import history, payments, services, subscribers, teachers, staff
 
 CONFIG = dotenv_values(".env")
 
@@ -53,6 +53,7 @@ def home():
 
 # Routes
 app.include_router(subscribers.router, prefix="/subscriber")
+app.include_router(teachers.router, prefix="/teacher")
 app.include_router(staff.router, prefix="/staff")
 app.include_router(services.router, prefix="/service")
 app.include_router(payments.router, prefix="/payment")

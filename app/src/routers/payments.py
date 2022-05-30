@@ -1,10 +1,11 @@
 # FastAPI
-from typing import List
 from fastapi import APIRouter, HTTPException, Request, status
 from fastapi.params import Body
 from fastapi.encoders import jsonable_encoder
 
+# Python
 from app import logger
+from typing import List
 
 # Models
 from app.src.models.payment import Payment
@@ -20,13 +21,16 @@ router = APIRouter()
 )
 def create_payment(request: Request, payment: Payment = Body(...)):
     """
+    ## Create payment
+
     It creates a new payment method
 
-    :param request: Request - The request object
-    :type request: Request
-    :param payment: Payment = Body(...)
-    :type payment: Payment
-    :return: The created payment method.
+    ### Args:
+    - request: Request - The request object
+    - payment: Payment 
+
+    ## Returns: 
+    The created payment method.
     """
     payment = jsonable_encoder(payment)
     new_payment = request.app.database["payments"].insert_one(payment)
@@ -44,11 +48,15 @@ def create_payment(request: Request, payment: Payment = Body(...)):
 )
 def get_payments(request: Request):
     """
+    ## Get Payments
+
     It returns a list of payments from the database
 
-    :param request: Request - This is the request object that is passed to the function
-    :type request: Request
-    :return: A list of payments
+    ## Args:
+    - request: Request - This is the request object that is passed to the function
+
+    ## Returns: 
+    A list of payments
     """
     logger.info(f"The list of payment methods has been requested")
     payment = list(request.app.database["payments"].find(limit=100))
@@ -63,13 +71,16 @@ def get_payments(request: Request):
 )
 def get_payment_by_id(request: Request, _id: str):
     """
+    ## Get payment by ID
+
     If the payment with the given ID exists, return it, otherwise raise an exception
 
-    :param request: Request - this is the request object that is passed to the function
-    :type request: Request
-    :param _id: The ID of the payment to retrieve
-    :type _id: str
-    :return: A payment object
+    ## Args:
+    - request: Request - this is the request object that is passed to the function
+    - _id: The ID of the payment to retrieve
+
+    ## Returns: 
+    A payment object
     """
     if (payment := request.app.database["payments"].find_one({"_id": _id})) is not None:
         return payment
