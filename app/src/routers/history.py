@@ -39,6 +39,32 @@ def create_history(request: Request, history: HistoryPost = Body(...)):
     return created_history
 
 
+@router.post(
+    path="/video/new",
+    response_model=HistoryPost,
+    status_code=status.HTTP_201_CREATED,
+    tags=["History"]
+)
+def create_video(request: Request, video: HistoryVideo = Body(...)):
+    """
+    ## Create video
+
+    It creates a new video in the database
+
+     ### Args:
+    - request: Request - This is the request object that is passed to the function
+    - video: HistoryVideo = Body(...)
+
+    ### Returns: 
+    The created video
+    """
+    video = jsonable_encoder(video)
+    new_video = request.app.database["history-videos"].insert_one(video)
+    created_video = request.app.database["history-videos"].find_one(
+        {"_id": new_video.inserted_id})
+    return created_video
+
+
 @router.get(
     path="/",
     response_model=List[HistoryPost],
