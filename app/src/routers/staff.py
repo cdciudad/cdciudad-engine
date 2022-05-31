@@ -8,14 +8,14 @@ from app import logger
 from typing import List
 
 # Models
-from app.src.models.staff import Staff
+from app.src.models.staff import Staff, StaffCard
 
 router = APIRouter()
 
 
 @router.get(
     path="/",
-    response_model=List[Staff],
+    response_model=List[StaffCard],
     status_code=status.HTTP_200_OK,
     tags=["Staff"]
 )
