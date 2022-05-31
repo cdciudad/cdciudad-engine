@@ -13,37 +13,6 @@ from app.src.models.staff import Teacher
 router = APIRouter()
 
 
-@router.post(
-    path="/new",
-    response_model=Teacher,
-    status_code=status.HTTP_201_CREATED,
-    tags=["Teachers"]
-)
-def create_teacher(request: Request, teacher: Teacher = Body(...)):
-    """
-    ## Create Teacher
-
-    It creates a new teacher
-
-    ### Args:
-    - request: Request - This is the request object that is passed to the function
-    - teacher: Teacher - A teacher model with name, greetings, personal information, experience and courses
-
-    ### Returns: 
-    The created teacher
-    """
-    try:
-        teacher = jsonable_encoder(teacher)
-        new_teacher = request.app.database["teachers"].insert_one(teacher)
-        created_teacher = request.app.database["teachers"].find_one(
-            {"_id": new_teacher.inserted_id})
-    except Exception as e:
-        logger.error(f"Error {e}")
-
-    logger.info(f"A new teacher has been added: {teacher['name']}")
-    return created_teacher
-
-
 @router.get(
     path="/",
     response_model=List[Teacher],

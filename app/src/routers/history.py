@@ -12,59 +12,6 @@ from app.src.models.history import HistoryPost, HistoryVideo
 router = APIRouter()
 
 
-@router.post(
-    path="/new",
-    response_model=HistoryPost,
-    status_code=status.HTTP_201_CREATED,
-    tags=["History"]
-)
-def create_history(request: Request, history: HistoryPost = Body(...)):
-    """
-    ## Create History
-
-    It takes a history object, encodes it to JSON, inserts it into the database, and returns the newly
-    created history object
-
-    ### Args:
-    - request: Request - The request object
-    - history: History - The history posts
-
-    ### Returns: 
-    A new history object is being returned.
-    """
-    history = jsonable_encoder(history)
-    new_history = request.app.database["history"].insert_one(history)
-    created_history = request.app.database["history"].find_one(
-        {"_id": new_history.inserted_id})
-    return created_history
-
-
-@router.post(
-    path="/video/new",
-    response_model=HistoryPost,
-    status_code=status.HTTP_201_CREATED,
-    tags=["History"]
-)
-def create_video(request: Request, video: HistoryVideo = Body(...)):
-    """
-    ## Create video
-
-    It creates a new video in the database
-
-     ### Args:
-    - request: Request - This is the request object that is passed to the function
-    - video: HistoryVideo = Body(...)
-
-    ### Returns: 
-    The created video
-    """
-    video = jsonable_encoder(video)
-    new_video = request.app.database["history-videos"].insert_one(video)
-    created_video = request.app.database["history-videos"].find_one(
-        {"_id": new_video.inserted_id})
-    return created_video
-
-
 @router.get(
     path="/",
     response_model=List[HistoryPost],
