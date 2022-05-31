@@ -32,11 +32,15 @@ def create_teacher(request: Request, teacher: Teacher = Body(...)):
     ### Returns: 
     The created teacher
     """
-    teacher = jsonable_encoder(teacher)
-    new_teacher = request.app.database["teachers"].insert_one(teacher)
-    created_teacher = request.app.database["teachers"].find_one(
-        {"_id": new_teacher.inserted_id})
-    logger.info(f"A new teacher has been added: {teacher.name}")
+    try:
+        teacher = jsonable_encoder(teacher)
+        new_teacher = request.app.database["teachers"].insert_one(teacher)
+        created_teacher = request.app.database["teachers"].find_one(
+            {"_id": new_teacher.inserted_id})
+    except Exception as e:
+        logger.error(f"Error {e}")
+
+    logger.info(f"A new teacher has been added: {teacher['name']}")
     return created_teacher
 
 

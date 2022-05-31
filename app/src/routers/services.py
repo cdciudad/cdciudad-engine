@@ -32,12 +32,17 @@ def create_service(request: Request, service: Service = Body(...)):
     ## Returns: 
     The created service.
     """
-    service = jsonable_encoder(service)
-    new_service = request.app.database["services"].insert_one(service)
-    created_service = request.app.database["services"].find_one(
-        {"_id": new_service.inserted_id})
-    logger.info(f"A new service has been added: {service.name}")
-    return created_service
+    try:
+        _service = jsonable_encoder(service)
+        new_service = request.app.database["services"].insert_one(_service)
+        created_service = request.app.database["services"].find_one(
+            {"_id": new_service.inserted_id})
+        logger.info(f"A new service has been added: {service.name}")
+        return created_service
+    except Exception as e:
+        logger.exception(e)
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Failed to create service")
 
 
 @router.get(

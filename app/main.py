@@ -4,6 +4,7 @@ from dotenv import dotenv_values
 
 # Fast API
 from fastapi import FastAPI, status
+from fastapi.middleware.cors import CORSMiddleware
 
 # Pymongo
 from pymongo import MongoClient
@@ -15,6 +16,11 @@ from app.src.routers import history, payments, services, subscribers, teachers, 
 CONFIG = dotenv_values(".env")
 
 app = FastAPI()
+
+origins = ["*"]
+
+app.add_middleware(CORSMiddleware, allow_origins=origins, allow_credentials=False, allow_methods=["*"],
+                   allow_headers=["*"],)
 
 
 @app.on_event("startup")
