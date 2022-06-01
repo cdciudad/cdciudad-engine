@@ -13,33 +13,6 @@ from app.src.models.payment import Payment
 router = APIRouter()
 
 
-@router.post(
-    path="/new",
-    response_model=Payment,
-    status_code=status.HTTP_201_CREATED,
-    tags=["Payments"]
-)
-def create_payment(request: Request, payment: Payment = Body(...)):
-    """
-    ## Create payment
-
-    It creates a new payment method
-
-    ### Args:
-    - request: Request - The request object
-    - payment: Payment 
-
-    ## Returns: 
-    The created payment method.
-    """
-    payment = jsonable_encoder(payment)
-    new_payment = request.app.database["payments"].insert_one(payment)
-    created_payment = request.app.database["payments"].find_one(
-        {"_id": new_payment.inserted_id})
-    logger.info(f"A new payment method has been added: {payment.name}")
-    return created_payment
-
-
 @router.get(
     path="/",
     response_model=List[Payment],

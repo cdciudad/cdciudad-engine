@@ -13,38 +13,6 @@ from app.src.models.service import Service
 router = APIRouter()
 
 
-@router.post(
-    path="/new",
-    response_model=Service,
-    status_code=status.HTTP_201_CREATED,
-    tags=["Services"]
-)
-def create_service(request: Request, service: Service = Body(...)):
-    """
-    ## Create service
-
-    It creates a new service
-
-    ## Args:
-    - request: Request - This is the request object that is passed to the function
-    - service: Service
-
-    ## Returns: 
-    The created service.
-    """
-    try:
-        _service = jsonable_encoder(service)
-        new_service = request.app.database["services"].insert_one(_service)
-        created_service = request.app.database["services"].find_one(
-            {"_id": new_service.inserted_id})
-        logger.info(f"A new service has been added: {service.name}")
-        return created_service
-    except Exception as e:
-        logger.exception(e)
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail="Failed to create service")
-
-
 @router.get(
     path="/",
     response_model=List[Service],

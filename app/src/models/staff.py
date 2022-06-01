@@ -12,9 +12,21 @@ from pydantic import BaseModel
 from app.src.models.department import AdministrativeDepartment, TeachingDepartment
 
 
+class StaffCard(BaseModel):
+    id: UUID = Field(default=uuid4(), alias='_id')
+
+    name: str = Field(..., example="Michael Scott")
+    profile_picture: str = Field(
+        ..., example="https://pbs.twimg.com/profile_images/1818543591/ms_main_left_400x400.jpg")
+    department: str = Field(
+        ..., example=TeachingDepartment.visual_arts_department)
+    staff_type: str = Field(..., example="Staff")
+
+
 class StaffBase(BaseModel):
 
     id: UUID = Field(default=uuid4(), alias='_id')
+    staff_type: str = Field(..., example="Staff")
 
     name: str = Field(..., example="Michael Scott")
     hello_there: str = Field(..., example="That's what she said!")

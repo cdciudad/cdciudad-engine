@@ -8,41 +8,14 @@ from app import logger
 from typing import List
 
 # Models
-from app.src.models.staff import Staff
+from app.src.models.staff import Staff, StaffCard
 
 router = APIRouter()
 
 
-@router.post(
-    path="/new",
-    response_model=Staff,
-    status_code=status.HTTP_201_CREATED,
-    tags=["Staff"]
-)
-def create_staff(request: Request, administrative: Staff = Body(...)):
-    """
-    ## Create Staff
-
-    It creates a new staff member.
-
-    ### Args:
-    - request: Request - This is the request object that is passed to the function.
-    - staff: Staff = Body(...)
-
-    ### Returns: 
-    The created_staff is being returned.
-    """
-    staff = jsonable_encoder(administrative)
-    new_staff = request.app.database["staff"].insert_one(staff)
-    created_staff = request.app.database["staff"].find_one(
-        {"_id": new_staff.inserted_id})
-    logger.info(f"A new staff member has been added: {administrative.name}")
-    return created_staff
-
-
 @router.get(
     path="/",
-    response_model=List[Staff],
+    response_model=List[StaffCard],
     status_code=status.HTTP_200_OK,
     tags=["Staff"]
 )
