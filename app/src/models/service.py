@@ -14,6 +14,15 @@ class ServiceContact(Contact):
     duty_manager: str
 
 
+class ServiceCard(BaseModel):
+    id: UUID = Field(default=uuid4(), alias='_id')
+
+    name: str = Field(..., example="Dunder Mifflin Paper Company")
+    description: str = Field(..., example="The company was founded by Robert Dunder and Robert Mifflin in 1949, where they supplied metal brackets. Eventually, the company started selling paper and opened several branches across the Northeastern United States.")
+    banner_picture: str = Field(
+        ..., example="https://static.wikia.nocookie.net/theoffice/images/2/2d/Dunder_Mifflin%2C_Inc_Long.jpg/revision/latest/scale-to-width-down/350?cb=20180717195405")
+
+
 class Service(BaseModel):
 
     id: UUID = Field(default=uuid4(), alias='_id')
