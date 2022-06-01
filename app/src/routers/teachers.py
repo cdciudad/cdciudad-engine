@@ -6,6 +6,7 @@ from fastapi.encoders import jsonable_encoder
 # Python
 from app import logger
 from typing import List
+import random
 
 # Models
 from app.src.models.staff import StaffCard, Teacher
@@ -35,6 +36,22 @@ def get_teachers(request: Request):
         logger.info(f"The list of teachers has been requested")
         teachers = list(request.app.database["teachers"].find(limit=100))
         return teachers
+    except Exception as e:
+        logger.error(e)
+        raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+@router.get(
+    path="/random",
+    response_model=List[StaffCard],
+    status_code=status.HTTP_200_OK,
+    tags=["Teachers"]
+)
+def get_random_teachers(request: Request):
+    try:
+        logger.info(f"The list of 5 random teachers has been requested")
+        teachers = list(request.app.database["teachers"].find())
+        return random.sample(teachers, k=5)
     except Exception as e:
         logger.error(e)
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR)
