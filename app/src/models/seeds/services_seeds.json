@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "name": "Préstamo de espacios y aulas",
+            "description": "Casa de la Ciudad cuenta con el apoyo a organizaciones sin fines de lucro por medio del préstamo de espacios. Los cuales se definen en tiempos y espacios determinados según las necesidades de los solicitantes y las disponibilidades del programa de extensión.",
+            "procedure": [
+                "Se reciben solicitudes durante los meses de febrero y julio en los correos contactos del encargado de préstamos de espacios.",
+                "Se revisan solicitudes a principios de los meses de marzo y agosto.",
+                "La persona encargada se contacta con las organizaciones interesadas e informa la resolución del préstamo, en caso de ser aprobado les informará los aspectos a tomar en cuenta para el uso de los espacios."
+            ],
+            "contacts": [
+                {
+                    "email": "ecedeno@itcr.ac.cr",
+                    "phone": "8453-7479",
+                    "office_hours": "Lunes a viernes 9:00am a 5:00pm",
+                    "duty_manager": "Estiben Cedeño Segura"
+                }
+            ],
+            "banner_picture": "image",
+            "gallery": [
+                "image"
+            ]
+        }
+    ]
+}

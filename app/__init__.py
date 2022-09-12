@@ -12,4 +12,4 @@ logger.info("Logger configured")
 # Configure environment
 load_dotenv()
 HOST = os.getenv("HOST")
-PORT = os.getenv("PORT")
+PORT = int(os.getenv("PORT"))

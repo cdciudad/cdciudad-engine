@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "name": "Wesley Word Acuña Picado",
+            "hello_there": "“No hay hombre en la tierra que pueda declarar un juicio final sobre cuál podría ser la forma más hermosa. Sólo Dios sabe”, Alberto Durero",
+            "experience": "Docente de Artes Plásticas con experiencia en Educación Especial, con ocho años de laborar y en el área de talleres y educación no formal 12 años de experiencia docente de la Casa de la Ciudad, FUNDATEC, Instituto Tecnológico de Costa Rica, talleres de arte, pintura, dibujo, diseño, anatomía y figura humana.",
+            "job": "Docente de artes plásticas",
+            "hobbies": [
+                "Senderismo",
+                "Videojuegos",
+                "Pintura mural"
+            ],
+            "years_of_experience": 11,
+            "banner_picture": "imagen",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685189/cdciudad/images/teachers/Wesley%20AP/_DSC9323_dlhjel.jpg",
+            "department": "Artes Visuales",
+            "schooling": [
+                "Licenciatura en artes plásticas con énfasis en Pintura",
+                "Bachillerato en la Enseñanza de las artes plásticas"
+            ],
+            "staff_type": "Staff",
+            "courses": [
+                "Pintura al óleo",
+                "Dibujo de la figura humana",
+                "Dibujo manga para niños",
+                "Dibujos animados para niños"
+            ],
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685189/cdciudad/images/teachers/Wesley%20AP/_DSC9330_gnsbo1.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653687251/cdciudad/images/teachers/Wesley%20AP/_DSC9327_nhcnuk.jpg"
+            ]
+        }
+    ]
+}

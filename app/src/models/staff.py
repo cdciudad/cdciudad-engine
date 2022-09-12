@@ -50,8 +50,7 @@ class Teacher(StaffBase):
 
     department: TeachingDepartment = Field(
         ..., example=TeachingDepartment.visual_arts_department)
-    schooling: List[str] = Field(..., example=[
-                                 "University of Scranton's Kania School of Management"])
+
     courses: List[str] = Field(..., example=["Sales 101"])
     gallery: List[str] = Field(..., example=["https://static.wikia.nocookie.net/theoffice/images/7/75/YoungMichaelScott.jpg/revision/latest/scale-to-width-down/680?cb=20200413232331",
                                "https://static.wikia.nocookie.net/theoffice/images/7/7d/MichaelScottPaperCompany.jpg/revision/latest/top-crop/width/360/height/360?cb=20091216005626"])

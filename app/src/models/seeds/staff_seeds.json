@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "name": "Estiben Cedeño Segura",
+            "hello_there": "“Siempre hay flores para aquellos que quieren verlas” - Henri Matisse",
+            "experience": "Tengo once años trabajando como promotor y gestor cultural en el área artística, además de la experiencia en los procesos que se generan dentro y fuera de los escenariosa.",
+            "job": "Antropólogo Social",
+            "hobbies": [
+                "Danza contemporánea",
+                "Pintura en acuarela",
+                "Caminata en montaña",
+                "Atardeceres en la playa"
+            ],
+            "staff_type": "Staff",
+            "years_of_experience": 11,
+            "banner_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653688792/cdciudad/images/staff/Estiben/_DSC8460_tgt1kg.jpg",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653688790/cdciudad/images/staff/Estiben/_DSC8469_xv7xav.jpg",
+            "department": "Área de Gestión y Promoción Sociocultural",
+            "what_i_do": [
+                "Trabajo en el Área de Cursos, Programación artística, Desarrollo de festivales."
+            ],
+            "contact": {
+                "email": "michaelscott@mail.com",
+                "phone": "(507) 343-3400",
+                "office_hours": "Employees come in long past 9:00 AM and leave before 5:00 PM"
+            }
+        }
+    ]
+}

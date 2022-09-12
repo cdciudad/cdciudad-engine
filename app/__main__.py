@@ -1,5 +1,6 @@
 # Python
 import os
+import sys
 from dotenv import dotenv_values
 
 # Fast API
@@ -10,8 +11,12 @@ from fastapi.middleware.cors import CORSMiddleware
 from pymongo import MongoClient
 
 # Routers
-from app import logger
+from app import HOST, PORT, logger
+from app.src.models.migrations import drop, migrate
 from app.src.routers import history, payments, services, subscribers, teachers, staff
+
+# Uvicorn
+import uvicorn
 
 CONFIG = dotenv_values(".env")
 
@@ -64,3 +69,11 @@ app.include_router(staff.router, prefix="/staff")
 app.include_router(services.router, prefix="/service")
 app.include_router(payments.router, prefix="/payment")
 app.include_router(history.router, prefix="/history")
+
+
+if __name__ == '__main__':
+    drop()
+    migrate()
+    logger.info(f"Database migration...")
+    logger.info(f"App running...")
+    uvicorn.run(app, host=HOST, port=PORT)
