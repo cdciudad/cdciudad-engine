@@ -1,6 +1,25 @@
 {
     "data": [
         {
+            "name": "Cafetería",
+            "description": "Es una cafetería en donde te hacemos sentir como en casa, aquí te ofrecemos: almuerzos, repostería, variedad de cafés calientes y fríos, y deliciosos helados.",
+            "procedure": [
+                "Nos podés visitar en las instalaciones de Casa de la Ciudad o conocernos en nuestra página en Facebook Café Arte."
+            ],
+            "contacts": [
+                {
+                    "email": "thomas.susana21@gmail.com",
+                    "phone": "8583-9111",
+                    "office_hours": "Lunes a viernes 9:00 am a 7:00 pm y Sábados de 9:00 am a 5:00 pm",
+                    "duty_manager": "Susana Thomas Thomas"
+                }
+            ],
+            "banner_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662996912/cdciudad/images/services/Caf%C3%A9%20Arte/cafeteria_aixxey.jpg",
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662996912/cdciudad/images/services/Caf%C3%A9%20Arte/cafeteria_aixxey.jpg"
+            ]
+        },
+        {
             "name": "Préstamo de espacios y aulas",
             "description": "Casa de la Ciudad cuenta con el apoyo a organizaciones sin fines de lucro por medio del préstamo de espacios. Los cuales se definen en tiempos y espacios determinados según las necesidades de los solicitantes y las disponibilidades del programa de extensión.",
             "procedure": [
@@ -16,9 +35,148 @@
                     "duty_manager": "Estiben Cedeño Segura"
                 }
             ],
-            "banner_picture": "image",
+            "banner_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931480/cdciudad/images/services/Pr%C3%A9stamo-Espacios/IMG-20200215-WA0062-min_awxzi6.jpg",
             "gallery": [
-                "image"
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931481/cdciudad/images/services/Pr%C3%A9stamo-Espacios/IMG-20200308-WA0004-min_k7iu2t.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931481/cdciudad/images/services/Pr%C3%A9stamo-Espacios/IMG_20200215_105541-min_rnnctd.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931480/cdciudad/images/services/Pr%C3%A9stamo-Espacios/IMG-20170801-WA0018-min_vyrctv.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931480/cdciudad/images/services/Pr%C3%A9stamo-Espacios/DSC00210-min_zdv5qn.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931480/cdciudad/images/services/Pr%C3%A9stamo-Espacios/IMG-20200215-WA0062-min_awxzi6.jpg"
+            ]
+        },
+        {
+            "name": "Oferta de Cursos",
+            "description": "Ofrecemos a la comunidad la oportunidad de optar a cursos artísticos a un precio cómodo y en horarios accesibles en formato tanto presencial como virtual, los cuales se pueden conocer en las cinco áreas artísticas que manejamos: Artes escénicas, artes manuales, arte y salud, artes musicales y artes visuales como también de capacitación.",
+            "procedure": [
+                "Para conocer la oferta de cursos disponible podés comunicarte a nuestros contactos del Área de Cursos y en nuestras redes sociales.",
+                "La matrícula es totalmente en línea, por medio del enlace: https://www.fundatec.ac.cr/cursoscasadelaciudad",
+                "En el siguiente enlace se puede consultar un vídeo-tutorial de cómo realizar la matrícula en línea: http://tiny.cc/2ri2uz",
+                "Y nuestros vídeo-tutoriales donde te guiamos en las diferentes formas de pago por conectividad con FundaTEC: http://tiny.cc/ood2uz"
+            ],
+            "contacts": [
+                {
+                    "email": "casadelaciudad.itcr@gmail.com",
+                    "phone": "8453-5107 / 2550-2061 / 2550-2340",
+                    "office_hours": "Lunes a viernes 2:00 am a 7:00 pm y Sábados de 9:00 am a 5:00 pm",
+                    "duty_manager": "Diana Miranda Brenes"
+                },
+                {
+                    "email": "ecedeno@itcr.ac.cr",
+                    "phone": "8453-7479",
+                    "office_hours": "Lunes a viernes 9:00am a 5:00pm",
+                    "duty_manager": "Estiben Cedeño Segura"
+                }
+            ],
+            "banner_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931478/cdciudad/images/services/Oferta-Cursos/20190907_132700-min_yhkfao.jpg",
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931480/cdciudad/images/services/Oferta-Cursos/IMG_20200203_194132-min_ukqssb.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931480/cdciudad/images/services/Oferta-Cursos/IMG_20170909_100632-min_uwttci.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931480/cdciudad/images/services/Oferta-Cursos/DSC06139-min_rb5qgb.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931480/cdciudad/images/services/Oferta-Cursos/DSC05635-min_nzttue.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931479/cdciudad/images/services/Oferta-Cursos/DSC00277-min_nbzrhj.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931478/cdciudad/images/services/Oferta-Cursos/Ballet_y_danza_01-min_gw4nky.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931478/cdciudad/images/services/Oferta-Cursos/2015-07-16_18.59.01-min_tfid9p.jpg"
+            ]
+        },
+        {
+            "name": "Galería de Exposiciones",
+            "description": "Funciona dentro del Programa de extensión de la Unidad de Cultura para la coordinación de exposiciones artísticas en los espacios del Tecnológico de Costa Rica. El Programa de Galerías Temporales, ofrece al público una serie de exposiciones artísticas durante el año en las diferentes salas del TEC. Uno de estos espacios es la Casa de la Ciudad de Cartago. Tanto la galería principal como también los muros de los pasillos circundantes al jardín central y el Café Arte, coordinan sus exposiciones a partir de este programa de la Unidad de Cultura y Casa de la Ciudad.",
+            "procedure": [
+                "Se hace una convocatoria anual entre octubre y noviembre, la selección de las propuestas se comunica en diciembre.",
+                "Enviar al correo electrónico ndiaz@itcr.ac.cr un documento de texto (PDF) con los siguientes datos:\n1. Solicitud del espacio para exposiciones (texto con el nombre y contactos del artista solicitando el préstamo del espacio de Galerías, dirigido al equipo de Galerías TEC (indicar el mes de su preferencia).\n2. Descripción de la propuesta (un texto que explique detalles como el título de la muestra, la temática, la técnica, la cantidad de las obras y los tamaños.)\n3. Entre 5 y 10 fotografías o bocetos de las obras. (adjuntar archivos de imágenes JPG, PNG o PDF).\n4. Hoja curricular: Texto con atestados como estudios, exposiciones individuales y colectivas, premios, etc."
+            ],
+            "contacts": [
+                {
+                    "email": "ndiaz@itcr.ac.cr",
+                    "phone": "-",
+                    "office_hours": "Lunes a viernes 8:00 am a 12:00 pm",
+                    "duty_manager": "Nelson Díaz Brenes"
+                }
+            ],
+            "banner_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931477/cdciudad/images/services/Galer%C3%ADa/IMG_20200227_201108_1-min_x6pqco.jpg",
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931477/cdciudad/images/services/Galer%C3%ADa/IMG-20190726-WA0095-min_ygqsln.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931477/cdciudad/images/services/Galer%C3%ADa/IMG_20170922_200110-min_yekjqx.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931477/cdciudad/images/services/Galer%C3%ADa/IMG-20190726-WA0110-min_e1taad.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931476/cdciudad/images/services/Galer%C3%ADa/IMG-20190726-WA0090-min_kpd9pi.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931476/cdciudad/images/services/Galer%C3%ADa/DSC07992-min_szeogi.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931476/cdciudad/images/services/Galer%C3%ADa/DSC00913-min_gev0od.jpg"
+            ]
+        },
+        {
+            "name": "Festivales, Ferias y Encuentros",
+            "description": "Contamos con una programación anual de celebraciones temáticas que ofrecen una variada gama de actividades artísticas; actualmente desarrollamos el Encuentro de Escritoras y Escritores (marzo), el Festival Escénico (mayo), el Festival de Artes Visuales (junio), la Feria de la Cultura Popular (septiembre), el Festival de Yoga y Salud (octubre), y la Feria Navideña (diciembre)",
+            "procedure": [
+                "Para conocer la agenda de los festivales, las ferias y los encuentros en las fechas cercanas a cada celebración (enlace de la programación).",
+                "Para inscribirse en los talleres o adquirir entradas a las actividades programadas en las fechas cercanas a cada celebración (enlace de la boletería en línea) - algunas actividades se ofrecen sin costo y otras tienen un valor monetario accesible.",
+                "Para conocer más a profundidad sobre cada una de los festivales, las ferias y los encuentros, o bien para realizar una propuesta relacionada, dirigirse a los contactos más adelante."
+            ],
+            "contacts": [
+                {
+                    "email": "ecedeno@itcr.ac.cr",
+                    "phone": "8453-7479",
+                    "office_hours": "Lunes a viernes 9:00am a 5:00pm",
+                    "duty_manager": "Estiben Cedeño Segura"
+                },
+                {
+                    "email": "alsoto@tec.ac.cr",
+                    "phone": "2550-2196",
+                    "office_hours": "Por definir",
+                    "duty_manager": "Alexander Soto Fallas"
+                },
+                {
+                    "email": "svalerin@itcr.ac.cr",
+                    "phone": "2550-2197/ 2550-2893",
+                    "office_hours": "Lunes a viernes de 9:00 am a 5:00 pm",
+                    "duty_manager": "Sofía Valerín Rojas"
+                }
+            ],
+            "banner_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931478/cdciudad/images/services/Festivales/DSC01941-min_q7xzsu.jpg",
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931475/cdciudad/images/services/Festivales/IMG_20180913_200933-min_anqfz2.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931475/cdciudad/images/services/Festivales/CASA_DE_LA_CIUDAD_ene-feb_2011_181-min_imvg0a.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931476/cdciudad/images/services/Festivales/DSC00849-min_wt9n8d.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931476/cdciudad/images/services/Festivales/DSC00290.1-min_pilgw1.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931479/cdciudad/images/services/Festivales/DSC_0137-min_kn1rag.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931479/cdciudad/images/services/Festivales/DSC09358-min_hawhha.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931479/cdciudad/images/services/Festivales/DSC_0103-min_ftrhi3.jpg"
+            ]
+        },
+        {
+            "name": "Programación Artística",
+            "description": "Contamos con una programación de espectáculos artísticos (teatro, danza, música, literatura, entre otros) en nuestra sala multifuncional; dirigida a la comunidad, como también para instituciones educativas y empresas. Los espectáculos tienen un valor monetario accesible y otras actividades se ofrecen sin costo gracias a la oferta de extensión cultural.",
+            "procedure": [
+                "Para conocer la agenda de actividades (enlace de la programación) o adquirir entradas (enlace de la boletería en línea).",
+                "Para solicitar una función privada para tu institución o empresa dirigirse a los contactos más adelante.",
+                "Para ofrecer la presentación de un espectáculo por  parte de una agrupación artística: descargar y leer el documento de lineamientos para la presentación de espectáculos en Casa de la Ciudad (enlace del documento) y seguir los pasos descritos en el mismo."
+            ],
+            "contacts": [
+                {
+                    "email": "ecedeno@itcr.ac.cr",
+                    "phone": "8453-7479",
+                    "office_hours": "Lunes a viernes 9:00am a 5:00pm",
+                    "duty_manager": "Estiben Cedeño Segura"
+                },
+                {
+                    "email": "alsoto@tec.ac.cr",
+                    "phone": "2550-2196",
+                    "office_hours": "Por definir",
+                    "duty_manager": "Alexander Soto Fallas"
+                },
+                {
+                    "email": "svalerin@itcr.ac.cr",
+                    "phone": "2550-2197/ 2550-2893",
+                    "office_hours": "Lunes a viernes de 9:00 am a 5:00 pm",
+                    "duty_manager": "Sofía Valerín Rojas"
+                }
+            ],
+            "banner_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931482/cdciudad/images/services/Programaci%C3%B3n-Art%C3%ADstica/IMG_5881-min_b2wfrm.jpg",
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931482/cdciudad/images/services/Programaci%C3%B3n-Art%C3%ADstica/DSC_5057-min_suxjzo.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931482/cdciudad/images/services/Programaci%C3%B3n-Art%C3%ADstica/IMG_20190602_143104-min_gdt0mz.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931481/cdciudad/images/services/Programaci%C3%B3n-Art%C3%ADstica/20190831_200109-min_lznxuo.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931481/cdciudad/images/services/Programaci%C3%B3n-Art%C3%ADstica/DSC05887-min_vkyhc7.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662931481/cdciudad/images/services/Programaci%C3%B3n-Art%C3%ADstica/DSC08066-min_ktpcxw.jpg"
             ]
         }
     ]

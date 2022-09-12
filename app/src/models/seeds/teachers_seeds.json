@@ -1,6 +1,522 @@
 {
     "data": [
         {
+            "name": "David Rodríguez Morales",
+            "hello_there": "Enseño lengua de señas costarricense para oyentes, para que puedan comunicarse con personas sordas y tener igualdad de condiciones",
+            "experience": "Cuento con 16 años de experiencia he laborado en diferentes instituciones entre ellas UNED, FUNDATEC, UCR, COLEGIO MIRAVALLES, VICTORIA, BRECA, UNA, CENTRO ESPECIALIZADO DE LESCO, INSTITUTO DE TEJAR y ESCUELA SORDOS DE CARTAGO.",
+            "job": "Lengua de señas costarricense",
+            "hobbies": [
+                "Lectura",
+                "Natación",
+                "Recreación"
+            ],
+            "years_of_experience": 16,
+            "banner_picture": "imagen",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685185/cdciudad/images/teachers/David%20RM/_DSC9251_txv1zq.jpg",
+            "department": "Lengua de Señas Costarricense",
+            "schooling": [
+                "Estrategias metodológicas para la enseñanza de la Lengua De Señas Costarricense (LESCO) como segunda lengua",
+                "Variedades y registros en LESCO, Asociación Nacional de Sordos de Costa Rica"
+            ],
+            "staff_type": "Teacher",
+            "courses": [
+                "Lengua señas costarricense y vermicular visual"
+            ],
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685186/cdciudad/images/teachers/David%20RM/_DSC9250_ggx5wr.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685185/cdciudad/images/teachers/David%20RM/_DSC9253_uxzda0.jpg"
+            ]
+        },
+        {
+            "name": "Claudia Barquero de la Cruz",
+            "hello_there": "La danza es un arte decorado de ejercicio y bienestar… El movimiento cura el alma!",
+            "experience": "Tengo una trayectoria artística como bailarina profesional y profesora de danza del vientre y tribal fusión por más de dos décadas, he impartido clases y participado en diversos festivales de danza a nivel mundial y he incursionado en el aprendizaje de otras danzas como las danzas de la India y bailes populares. Además he dirigido y producido más de 20 espectáculos en distintos teatros Nacionales.",
+            "job": "Fotógrafa, productora audiovisual, animadora digital, bailarina y profesora de danzas árabes.",
+            "hobbies": [
+                "Senderismo",
+                "Cocina",
+                "Adiestramiento canino",
+                "Recreación"
+            ],
+            "years_of_experience": 16,
+            "banner_picture": "imagen",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685187/cdciudad/images/teachers/Claudia%20BC/_DSC9304_ylkv2b.jpg",
+            "department": "Artes Escénicas",
+            "schooling": [
+                "Licenciatura en fotografía, Universidad Veritas",
+                "Técnica Argentina de Danza Árabe, ICA",
+                "Boolywood teacher training, Academia Ave Shanti",
+                "Performance training y entrenamiento para profesoras, AMAR",
+                "Tribal Fusion training, Serta Huertas",
+                "English Now program, Instituto Cultural Norteamericano"
+            ],
+            "staff_type": "Teacher",
+            "courses": [
+                "Tribal fusión",
+                "Danza del vientre"
+            ],
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653686387/cdciudad/images/teachers/Claudia%20BC/_DSC9307_jhszkg.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685188/cdciudad/images/teachers/Claudia%20BC/_DSC9314_j8pcrh.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685187/cdciudad/images/teachers/Claudia%20BC/_DSC9297_axheye.jpg"
+            ]
+        },
+        {
+            "name": "Gloriana Quirós Navarro",
+            "hello_there": "El arte de la actuación nos conecta con nuestras habilidades creativas, potencia la expresión y la memoria, hace crecer la empatía hacia los demás y la confianza en nosotros mismos",
+            "experience": "Tengo una trayectoria artística desde hace más de 9 años, como actriz profesional y creadora escénica en teatro y audiovisual, además de dedicarme a la pedagogía teatral en diferentes espacios profesionales y diversas poblaciones.",
+            "job": "Artista escénica y docente",
+            "hobbies": [
+                "Patinaje",
+                "Danza",
+                "Artesanía botánica"
+            ],
+            "years_of_experience": 10,
+            "banner_picture": "imagen",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653686955/cdciudad/images/teachers/Gloriana%20QN/_DSC8129_p6aiei.jpg",
+            "department": "Artes Escénicas",
+            "schooling": [
+                "Bachiller en Arte Escénico, UNA (Universidad Nacional)",
+                "Licenciatura en Docencia, UNED (Universidad Estatal a Distancia"
+            ],
+            "staff_type": "Teacher",
+            "courses": [
+                "Teatro I (Principiante)",
+                "Teatro II (Intermedio)",
+                "Teatro Expresión e Imaginación (Infantil)"
+            ],
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685939/cdciudad/images/teachers/Gloriana%20QN/_DSC8151_qxwwos.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653686955/cdciudad/images/teachers/Gloriana%20QN/_DSC8129_p6aiei.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685938/cdciudad/images/teachers/Gloriana%20QN/_DSC8144_ojzhsj.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685938/cdciudad/images/teachers/Gloriana%20QN/_DSC8138_kyjljf.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685938/cdciudad/images/teachers/Gloriana%20QN/_DSC8101_ppihjs.jpg"
+            ]
+        },
+        {
+            "name": "Lorenlaine Varela Lizano",
+            "hello_there": "Esta soy yo, mujer, bailarina de grandes metas, soy artista y mi vida se convirtió en la danza",
+            "experience": "Soy bailarina profesional de la Compañía Nacional de Danza, activa desde hace más de 30 años; formadora de ballet y danza contemporánea en Casa de la Ciudad por más de 30 años consecutivos; coreógrafa y directora de agrupaciones como el Proyecto Andanza en Cartago y Contacto Independiente del Ministerio de Cultura y Juventud, entre otros proyectos.",
+            "job": "Bailarina profesional",
+            "hobbies": [
+                "Bailar",
+                "Caminatas",
+                "Deportes"
+            ],
+            "years_of_experience": 55,
+            "banner_picture": "imagen",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653687070/cdciudad/images/teachers/Lorenlaine%20VL/_DSC9618_ozwouu.jpg",
+            "department": "Artes Escénicas",
+            "schooling": [
+                "Bachillerato en Danza, UNA",
+                "Bachillerato de Enseñanza Preescolar, UNA"
+            ],
+            "staff_type": "Teacher",
+            "courses": [
+                "Ballet: Primeros conocimientos",
+                "Ballet: Aprendiendo ballet",
+                "Ballet: Sembrando un mañana",
+                "Ballet: Dejando huella",
+                "Ballet y Danza",
+                "Danza contemporánea"
+            ],
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653687070/cdciudad/images/teachers/Lorenlaine%20VL/_DSC9618_ozwouu.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653687043/cdciudad/images/teachers/Lorenlaine%20VL/_DSC9627_vspdvt.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685939/cdciudad/images/teachers/Lorenlaine%20VL/_DSC9633_rgn7qs.jpg"
+            ]
+        },
+        {
+            "name": "Natalia Meneses Quirós",
+            "hello_there": "Todo va a salir bien! La danza es el lenguaje oculto del alma (Martha Graham)",
+            "experience": "Profesora de Danza del Vientre y Tribal Fusión desde el 2010 en Casa de la Ciudad. Estuvo como profesora de Danza del Vientre y Tribal por algunas temporadas en Clubes Creativos, Alapadma, Ritmo Fit, Llama del bosque y TEC (cursos libre). Instructora de Zuma en el Comité de Deportes y Recreación de la Unión, Tres Ríos (2018 a 2020).",
+            "job": "Bailarina profesional",
+            "hobbies": [
+                "Bailar",
+                "Ejercicios",
+                "Gatos"
+            ],
+            "years_of_experience": 12,
+            "banner_picture": "imagen",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1654058361/cdciudad/images/teachers/Natalia%20MQ/_DSC1750_vj7xp0.jpg",
+            "department": "Artes Escénicas",
+            "schooling": [
+                "Estudios de Ballet, Gimnasia, Jazz, Contemporáneo, Africano, Danza del Vientre, Tribal Fusión, Tango, Hip Hop, Afrodance, con profesores nacionales e internacionales",
+                "Tribal Teacher Tranning, en Danza del Vientre también al igual que Professional Performance Trainig"
+            ],
+            "staff_type": "Teacher",
+            "courses": [
+                "Danza del vientre",
+                "Tribal fusión",
+                "Cardio dance"
+            ],
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653686139/cdciudad/images/teachers/Natalia%20MQ/_DSC9466_idzoai.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653686138/cdciudad/images/teachers/Natalia%20MQ/_DSC9440_qzgpgk.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653686138/cdciudad/images/teachers/Natalia%20MQ/_DSC9434_cfjdyc.jpg"
+            ]
+        },
+        {
+            "name": "Susana Castillo Gómez",
+            "hello_there": "Siempre baila, aunque te caigas, aunque te critiquen, aunque nadie crea en ti, aunque estés triste. Sigue bailando",
+            "experience": "Tengo 8 años trabajando en Casa de la Ciudad, con grupos de niñas de los 3 años hasta adolescentes, además fui bailarina de la Compañía Andanza de Casa de la Ciudad por 8 años, por lo que tengo toda mi vida en este hermoso edificio.",
+            "job": "Profesora de ballet clásico y danza contemporánea",
+            "hobbies": [
+                "Naturaleza",
+                "Lectura",
+                "Cocinar"
+            ],
+            "years_of_experience": 8,
+            "banner_picture": "imagen",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1654058820/cdciudad/images/teachers/Sussana%20CG/_DSC9665_nxqlqo.jpg",
+            "department": "Artes Escénicas",
+            "schooling": [
+                "Bachillerato en Danza Contemporánea de la Universidad Nacional de Costa Rica",
+                "Certificaciones en enseñanza del Ballet Clásico Vaganova"
+            ],
+            "staff_type": "Teacher",
+            "courses": [
+                "Pre ballet",
+                "Ballet I",
+                "Ballet II",
+                "Ballet básico",
+                "Ballet puntas"
+            ],
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685188/cdciudad/images/teachers/Sussana%20CG/_DSC9667_x8cp1p.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685189/cdciudad/images/teachers/Sussana%20CG/_DSC9707_ixulaw.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685188/cdciudad/images/teachers/Sussana%20CG/_DSC9687_yxciqn.jpg"
+            ]
+        },
+        {
+            "name": "María Gabriela Aguilar García",
+            "hello_there": "No es verdad que las personas dejen de perseguir sueños porque se hacen viejas, sino que se hacen viejas porque dejan de perseguir sus sueños",
+            "experience": "Toda la vida me ha apasionado el mundo de las artes, principalmente las artes manuales a lo largo de estos años he recibido cursos de diferentes técnicas y procedimientos en Quilting, así como cursos de distintas manualidades como bordado, tejido, canva y cerámica",
+            "job": "Profesora de quilting",
+            "hobbies": [
+                "Bordar",
+                "Quilting",
+                "Lectura"
+            ],
+            "years_of_experience": 14,
+            "banner_picture": "imagen",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685701/cdciudad/images/teachers/Gabriela%20AG/_DSC9809_csqlwt.jpg",
+            "department": "Artes Manuales",
+            "schooling": [
+                "Curso de Quilting en UNED",
+                "Cursos varios de Quilting en El Costurero"
+            ],
+            "staff_type": "Teacher",
+            "courses": [
+                "Quilting básico",
+                "Quilting intermedio",
+                "Quilting avanzado"
+            ],
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685702/cdciudad/images/teachers/Gabriela%20AG/_DSC9813_sozxyw.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685701/cdciudad/images/teachers/Gabriela%20AG/_DSC9809_csqlwt.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685701/cdciudad/images/teachers/Gabriela%20AG/_DSC9817_persig.jpg"
+            ]
+        },
+        {
+            "name": "Alejandro José Mora Campos",
+            "hello_there": "Amo la música y el medio para transmitir todo lo que siento es mi guitarra, me encanta enseñar y ver como mis estudiantes alcanzan sus metas.",
+            "experience": "Cuento con 16 años de experiencia en la ejecución de la guitarra. He participado con la Orquesta de Guitarras de la Universidad de Costa Rica en giras internacionales (Centro América, Estados Unidos y Argentina), también en las principales salas del país: en el Teatro Nacional y el Teatro Melico Salazar. Como docente cuento con 13 años de experiencia impartiendo lecciones de guitarra.",
+            "job": "Profesor de guitarra y guitarrista independiente",
+            "hobbies": [
+                "Bailar",
+                "Fútbol",
+                "Lectura"
+            ],
+            "years_of_experience": 16,
+            "banner_picture": "imagen",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685185/cdciudad/images/teachers/Alejandro%20MC/_DSC1406_mxdrkm.jpg",
+            "department": "Artes Musicales",
+            "schooling": [
+                "Conclusión de Etapa Básica en guitarra de la Universidad de Costa Rica",
+                "Bachillerato en música con énfasis en guitarra de la Universidad de Costa Rica"
+            ],
+            "staff_type": "Teacher",
+            "courses": [
+                "Guitarra clásica"
+            ],
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685185/cdciudad/images/teachers/Alejandro%20MC/_DSC1417_en17wt.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685185/cdciudad/images/teachers/Alejandro%20MC/_DSC1425_yzw9cn.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685186/cdciudad/images/teachers/Alejandro%20MC/_DSC1475_u30rqq.jpg"
+            ]
+        },
+        {
+            "name": "Elena Castillo Ulate",
+            "hello_there": "La profe de canto popular",
+            "experience": "He trabajado dando cursos de canto popular y artes musicales, me gusta mucho el enfoque social de la música. He tenido por 10 años el coro ANCORA del Tecnológico",
+            "job": "Profesora de música y cantante",
+            "hobbies": [
+                "Escuchar música",
+                "Métodos vocales",
+                "Aprendizaje cultural"
+            ],
+            "years_of_experience": 12,
+            "banner_picture": "imagen",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1654058745/cdciudad/images/teachers/Elena%20CU/_DSC9722_sqbdjg.jpg",
+            "department": "Artes Musicales",
+            "schooling": [
+                "Docente en Música, que ha trabajado por 10 años para el Tecnológico brindando formación vocal"
+            ],
+            "staff_type": "Teacher",
+            "courses": [
+                "Canto popular"
+            ],
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653686445/cdciudad/images/teachers/Elena%20CU/_DSC9736_tjdxvf.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685186/cdciudad/images/teachers/Elena%20CU/_DSC9729_xxatlk.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685186/cdciudad/images/teachers/Elena%20CU/_DSC9750_wzefhj.jpg"
+            ]
+        },
+        {
+            "name": "Francisco Cerdas Leiva",
+            "hello_there": "La música me inspira a entrar dentro de mí y conectar con todo aquel que me escuche",
+            "experience": "Profesor del Ministerio de Educación por más de 20 años. Trabajé en la Escuela de Música de Agua Caliente por alrededor de ocho años, Ministerio de Cultura. Profesor de guitarra popular, ukelele y organeta en la Casa de la Ciudad desde setiembre del 2013. En mi juventud anduve en agrupaciones nacionales tocando algunos instrumentos",
+            "job": "Educador y músico",
+            "hobbies": [
+                "Ciclismo",
+                "Familia",
+                "Correr"
+            ],
+            "years_of_experience": 30,
+            "banner_picture": "imagen",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653686730/cdciudad/images/teachers/Francisco%20CL/_DSC8286_lm93ab.jpg",
+            "department": "Artes Musicales",
+            "schooling": [
+                "Bachillerato en educación con énfasis en enseñanza de la música (UCART)",
+                "Licenciatura en educación con énfasis en enseñanza de la música (Universidad Castro Carazo)",
+                "Maestría en educación con énfasis en enseñanza de la música (UCART)"
+            ],
+            "staff_type": "Teacher",
+            "courses": [
+                "Guitarra popular",
+                "Organeta popular",
+                "Ukelele"
+            ],
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685701/cdciudad/images/teachers/Francisco%20CL/_DSC8255_riflx8.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653686841/cdciudad/images/teachers/Francisco%20CL/_DSC8311_cessay.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685700/cdciudad/images/teachers/Francisco%20CL/_DSC8337_xoc5zg.jpg"
+            ]
+        },
+        {
+            "name": "Pamela Alvarado Calderón",
+            "hello_there": "“La salud es la riqueza real y no piezas de oro o de plata” Mahatma Gandhi",
+            "experience": "He impartido clases de violín desde hace 14 años en diferentes escuelas de música. He ejecutado el violín en la Orquesta Sinfónica de Heredia, Orquesta de la Universidad de Costa Rica y de Cartago, además de participar en diferentes eventos con diferentes agrupaciones. Realizo consulta nutricional privada, en diferentes clínicas y empresas. He impartido charlas de nutrición en diferentes instituciones, además de dirigir la página nutricional en Facebook e Instagram. Desde hace más de dos años diseñé e imparto el curso de nutrición inteligente.",
+            "job": "Violinista y nutricionista",
+            "hobbies": [
+                "Rompecabezas",
+                "Geografía"
+            ],
+            "years_of_experience": 14,
+            "banner_picture": "imagen",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685187/cdciudad/images/teachers/Pamela%20AC/_DSC9491_rsjf7k.jpg",
+            "department": "Arte y Salud",
+            "schooling": [
+                "Diez años de estudio del violín, Escuela de Música de Cartago",
+                "Técnico medio en violín Etapa Básica, UCR",
+                "Licenciatura en Nutrición, UH",
+                "Maestría en Nutrición y Metabolismo, UB/URV",
+                "Maestría en docencia Universitaria, UCR"
+            ],
+            "staff_type": "Teacher",
+            "courses": [
+                "Violín",
+                "Nutrición Inteligente"
+            ],
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685188/cdciudad/images/teachers/Pamela%20AC/_DSC9536_ayvkfb.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685188/cdciudad/images/teachers/Pamela%20AC/_DSC9502_d9czow.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1654058443/cdciudad/images/teachers/Pamela%20AC/_DSC9481_pnya3y.jpg"
+            ]
+        },
+        {
+            "name": "Esteban Ureña Quirós",
+            "hello_there": "La música tiene el poder de transformar",
+            "experience": "Tengo una trayectoria como músico profesional por más de diez años y he estado dando clases en diversos espacios de enseñanza por más de 10 años.",
+            "job": "Profesor y músico",
+            "hobbies": [
+                "Cine",
+                "Televisión"
+            ],
+            "years_of_experience": 15,
+            "banner_picture": "imagen",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685498/cdciudad/images/teachers/Esteban%20UQ/_DSC1382_h2r1of.jpg",
+            "department": "Artes Musicales",
+            "schooling": [
+                "Bachiller en Enseñanza de la Música, UCR",
+                "Licenciatura en Enseñanza de la Música, UCR"
+            ],
+            "staff_type": "Teacher",
+            "courses": [
+                "Guitarra eléctrica"
+            ],
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653686635/cdciudad/images/teachers/Esteban%20UQ/_DSC1397_nnne9j.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685498/cdciudad/images/teachers/Esteban%20UQ/_DSC1386_c3knyu.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685498/cdciudad/images/teachers/Esteban%20UQ/_DSC1376_dx6bdq.jpg"
+            ]
+        },
+        {
+            "name": "Ericka Duarte Rojas",
+            "hello_there": "Las clases de yoga como espacio de amor propio y redescubrirse a sí mismo con compasión y agradecimiento",
+            "experience": "Practico yoga desde el año 2014 y desde hace 3 años soy profesora en Casa de la ciudad.",
+            "job": "Administración de empresas RRHH e instructora de yoga",
+            "hobbies": [
+                "Escuchar música",
+                "Recreación",
+                "Lectura"
+            ],
+            "years_of_experience": 8,
+            "banner_picture": "imagen",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1654058518/cdciudad/images/teachers/Ericka%20DR/_DSC1322_hmkmix.jpg",
+            "department": "Arte y Salud",
+            "schooling": [
+                "Certificado profesores de Hatha yoga 600 hrs. Santocha Studio",
+                "Formación en técnicas de Nyasa yoga nidra OiYAY",
+                "Taller previendo lesiones, el arte de asistir. Devaya Yoga",
+                "Certificación yoga para niños. Yoga Mandir"
+            ],
+            "staff_type": "Teacher",
+            "courses": [
+                "Hatha Yoga",
+                "Vinyasa Yoga",
+                "Yoga conciencia corporal"
+            ],
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685497/cdciudad/images/teachers/Ericka%20DR/_DSC1356_gfszwv.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653686501/cdciudad/images/teachers/Ericka%20DR/_DSC1369_nuaich.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685497/cdciudad/images/teachers/Ericka%20DR/_DSC1339_v23nr6.jpg"
+            ]
+        },
+        {
+            "name": "Francesco Latino Alvarado",
+            "hello_there": "El arte no reproduce aquello que es visible sino que hace visible aquello que no siempre lo es",
+            "experience": "Tengo experiencia como dibujante en arquitectura en perspectiva, trabajos de presentación, caricaturas para el periódico del TEC. Desde 1986 impartí cursos de dibujo artístico a niños en el TEC en los Cursos Libres, Asistente de Arquitectura, Oficina de Ingeniería del TEC, además Profesor de Dibujo Técnico en el TEC, Colegio Científico y de Dibujo Arquitectónico en el COVAO Nocturno",
+            "job": "Dibujante arquitectónico, artístico, pintura y lettering",
+            "hobbies": [
+                "Cantar",
+                "Bailar",
+                "Camping"
+            ],
+            "years_of_experience": 45,
+            "banner_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662998966/cdciudad/images/teachers/Wesley%20AP/painting-ideas-thumbnail-jpg_gsyj4a.jpg",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685498/cdciudad/images/teachers/Francesco%20LA/_DSC9345_xvebl6.jpg",
+            "department": "Artes Visuales",
+            "schooling": [
+                "Técnico Medio en Dibujo Arquitectónico y de Ingeniería Bachiller en Artes Plásticas, UCR"
+            ],
+            "staff_type": "Teacher",
+            "courses": [
+                "Dibujo artístico niños y adultos",
+                "Pintura en acrílico"
+            ],
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685498/cdciudad/images/teachers/Francesco%20LA/_DSC9344_huhlcr.jpg"
+            ]
+        },
+        {
+            "name": "Gerald Miranda Muñoz",
+            "hello_there": "El arte es el lenguaje del corazón, es la esencia de todo lo humano.",
+            "experience": "Creativo desde niño, actualmente me desempeño como profesor y profesionalmente como pintor, escultor e ilustrador; en mi quehacer artístico he trabajado en diversas técnicas, en la que destaca el realismo. He realizado exposiciones individuales y colectivas donde expongo mi obra personal.",
+            "job": "Docente, artista profesional",
+            "hobbies": [
+                "Arte",
+                "Caminatas",
+                "Gimnasio"
+            ],
+            "years_of_experience": 17,
+            "banner_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662998966/cdciudad/images/teachers/Wesley%20AP/painting-ideas-thumbnail-jpg_gsyj4a.jpg",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1654058692/cdciudad/images/teachers/Gerald%20MM/_DSC9864_hk2gq9.jpg",
+            "department": "Artes Visuales",
+            "schooling": [
+                "Dibujo artístico, dibujo escultórico, Casa del artista",
+                "Metodología para enseñanza de las artes, UCCART"
+            ],
+            "staff_type": "Teacher",
+            "courses": [
+                "Pintura acuarela",
+                "Pintura en acrílico",
+                "Pintura óleo",
+                "Retrato al óleo"
+            ],
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685938/cdciudad/images/teachers/Gerald%20MM/_DSC1728_np4rwc.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685937/cdciudad/images/teachers/Gerald%20MM/_DSC9855_ddkqlo.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685937/cdciudad/images/teachers/Gerald%20MM/_DSC9852_abqjye.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685937/cdciudad/images/teachers/Gerald%20MM/_DSC1797_bgucp6.jpg"
+            ]
+        },
+        {
+            "name": "Luis P. Solano Solano",
+            "hello_there": "Ni un día sin una línea. Es una frase que me proporciona constancia y disciplina en algo que disfruto día a día.",
+            "experience": "Laboro para el MEP como profesor de Dibujo Arquitectónico y en talleres exploratorios de Dibujo Artístico, así mismo para la Casa de la Ciudad del TEC., como docente en el área de las artes visuales (dibujo), en la empresa privada me he desempeñando como Dibujante Arquitectónico, además de haber participado en varias exposiciones en el Centro Cultural Cartaginés y Casa de la Ciudad.",
+            "job": "Docencia en secundaria en el área artística y arquitectura y docente en Casa de la Ciudad en el área de las artes visuales",
+            "hobbies": [
+                "Lectura",
+                "Origami",
+                "Dibujo"
+            ],
+            "years_of_experience": 35,
+            "banner_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662998966/cdciudad/images/teachers/Wesley%20AP/painting-ideas-thumbnail-jpg_gsyj4a.jpg",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1654058249/cdciudad/images/teachers/Luis%20SS/_DSC9610_ofcbyr.jpg",
+            "department": "Artes Visuales",
+            "schooling": [
+                "Técnico en Diseño Publicitario. COVAO",
+                "Técnico en Dibujo Arquitectónico. COVAO",
+                "Bachiller en la Enseñanza de las Artes Plásticas. UCCART"
+            ],
+            "staff_type": "Teacher",
+            "courses": [
+                "Dibujo artístico básico",
+                "Retrato y figura humana",
+                "Caricatura humorística y caricatura retrato",
+                "Manga básico y avanzado",
+                "Comic",
+                "Lettering",
+                "Ilustración mitológica"
+            ],
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1654058249/cdciudad/images/teachers/Luis%20SS/_DSC9610_ofcbyr.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653686138/cdciudad/images/teachers/Luis%20SS/_DSC9599_h4ffrd.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653686138/cdciudad/images/teachers/Luis%20SS/_DSC9598_uqdgdp.jpg"
+            ]
+        },
+        {
+            "name": "Pablo César Quesada Fonseca",
+            "hello_there": "Conoce la posibilidades y limitaciones de tu equipo, aprende conceptos, domina la técnica y despierta tu ojo fotográfico",
+            "experience": "Tengo conocimientos en diseño gráfico, edición en audio y video, y por supuesto, en fotografía digital, en grado técnico otorgado en el TEC y en la U Latina, también soy Bachiller en Administración de Empresas de la UAM. Trabajo en el TEC como técnico en artes gráficas, en la producción de materiales audiovisuales. Hace tres años funde el Club Comunidad Fotográfica de Casa de la Ciudad.",
+            "job": "Técnico en artes gráficas y producción audiovisual.",
+            "hobbies": [
+                "Música",
+                "Películas",
+                "Cocinar"
+            ],
+            "years_of_experience": 6,
+            "banner_picture": "image",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653686139/cdciudad/images/teachers/Pablo%20QF/DSC_0925_zuwyha.jpg",
+            "department": "Artes Visuales",
+            "schooling": [
+                "Técnico en Artes Gráficas, TEC",
+                "Técnico en Fotografía y edición Digital, U Latina",
+                "Bach. Administración de Empresas, UAM"
+            ],
+            "staff_type": "Teacher",
+            "courses": [
+                "Fotografía digital"
+            ],
+            "gallery": [
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653686139/cdciudad/images/teachers/Pablo%20QF/Fotograf%C3%ADa_digital_heptrq.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653686139/cdciudad/images/teachers/Pablo%20QF/DSC_0058_lts4yv.jpg",
+                "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653686139/cdciudad/images/teachers/Pablo%20QF/DSC_0058_lts4yv.jpg"
+            ]
+        },
+        {
             "name": "Wesley Word Acuña Picado",
             "hello_there": "“No hay hombre en la tierra que pueda declarar un juicio final sobre cuál podría ser la forma más hermosa. Sólo Dios sabe”, Alberto Durero",
             "experience": "Docente de Artes Plásticas con experiencia en Educación Especial, con ocho años de laborar y en el área de talleres y educación no formal 12 años de experiencia docente de la Casa de la Ciudad, FUNDATEC, Instituto Tecnológico de Costa Rica, talleres de arte, pintura, dibujo, diseño, anatomía y figura humana.",
@@ -11,14 +527,14 @@
                 "Pintura mural"
             ],
             "years_of_experience": 11,
-            "banner_picture": "imagen",
+            "banner_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1662998966/cdciudad/images/teachers/Wesley%20AP/painting-ideas-thumbnail-jpg_gsyj4a.jpg",
             "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685189/cdciudad/images/teachers/Wesley%20AP/_DSC9323_dlhjel.jpg",
             "department": "Artes Visuales",
             "schooling": [
                 "Licenciatura en artes plásticas con énfasis en Pintura",
                 "Bachillerato en la Enseñanza de las artes plásticas"
             ],
-            "staff_type": "Staff",
+            "staff_type": "Teacher",
             "courses": [
                 "Pintura al óleo",
                 "Dibujo de la figura humana",

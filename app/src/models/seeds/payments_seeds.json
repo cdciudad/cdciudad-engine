@@ -1,3 +1,275 @@
 {
-    "data": []
+    "data": [
+        {
+            "name": "Conectividad con FundaTEC (Efectivo)",
+            "description": "Podés realizar los pagos en línea desde las plataformas del Banco Nacional, Banco Costa Rica, BAC y desde el sitio oficial de FundaTEC.",
+            "image": "",
+            "video": "https://www.youtube.com/watch?v=CzlhiWvKkn8&t=1s",
+            "thumbnail": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1663008076/cdciudad/images/payments/fundatec-thumb_jorf4a.jpg",
+            "payment_guide": [
+                {
+                    "image": "",
+                    "name": "Paso 1",
+                    "description": "Ir a un BN Servicios",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 2",
+                    "description": "Indicar que es un pago por CONECTIVIDAD con FUNDATEC",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 3",
+                    "description": "Dar el número de identidad del estudiante",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 4",
+                    "description": "Hacer la cancelación",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 5",
+                    "description": "Recibir el comprobante de pago",
+                    "link": "",
+                    "alternative_text": ""
+                }
+            ]
+        },
+        {
+            "name": "Conectividad con FundaTEC (Tarjeta)",
+            "description": "Podés realizar los pagos en línea desde las plataformas del Banco Nacional, Banco Costa Rica, BAC y desde el sitio oficial de FundaTEC.",
+            "image": "",
+            "video": "https://www.youtube.com/watch?v=ioaF10A8aaU",
+            "thumbnail": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1663008076/cdciudad/images/payments/fundatec-card-thumb_crbmm7.jpg",
+            "payment_guide": [
+                {
+                    "image": "",
+                    "name": "Paso 1",
+                    "description": "Ingresar al enlace: https://www.inscribete.co.cr/fundatec",
+                    "link": "https://www.inscribete.co.cr/fundatec",
+                    "alternative_text": "https://www.inscribete.co.cr/fundatec"
+                },
+                {
+                    "image": "",
+                    "name": "Paso 2",
+                    "description": "Ingresar el número de identidad del estudiante",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 3",
+                    "description": "Elegir el método de pago (VISA – MASTER CARD – AMERICAN EXPRESS)",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 4",
+                    "description": "Seguir los pasos para realizar la cancelación con la tarjeta (débito o crédito)",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 5",
+                    "description": "Recibir el comprobante en el correo electrónico",
+                    "link": "",
+                    "alternative_text": ""
+                }
+            ]
+        },
+        {
+            "name": "Qpago",
+            "description": "Podés realizar los pagos en línea desde las plataformas del Banco Nacional, Banco Costa Rica, BAC y desde el sitio oficial de FundaTEC.",
+            "image": "",
+            "video": "https://www.youtube.com/watch?v=O9Et9XWR5C4",
+            "thumbnail": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1663008076/cdciudad/images/payments/qpago-thumb_xjvtej.jpg",
+            "payment_guide": [
+                {
+                    "image": "",
+                    "name": "Paso 1",
+                    "description": "Ingresar a la App Qpago",
+                    "link": "https://www.inscribete.co.cr/fundatec",
+                    "alternative_text": "https://www.inscribete.co.cr/fundatec"
+                },
+                {
+                    "image": "",
+                    "name": "Paso 2",
+                    "description": "Seleccionar SINPE móvil e ingresar contraseña",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 3",
+                    "description": "Seleccionar “Pagos y Servicios” – “Universidades” – “FUNDATEC”",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 4",
+                    "description": "Ingresar el número de identidad del estudiante",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 5",
+                    "description": "Hacer la cancelación",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 6",
+                    "description": "Recibir el comprobante de pago",
+                    "link": "",
+                    "alternative_text": ""
+                }
+            ]
+        },
+        {
+            "name": "BN",
+            "description": "Podés realizar los pagos en línea desde las plataformas del Banco Nacional, Banco Costa Rica, BAC y desde el sitio oficial de FundaTEC.",
+            "image": "",
+            "video": "https://www.youtube.com/watch?v=J-zIxD8qHtQ",
+            "thumbnail": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1663008076/cdciudad/images/payments/bn-thumb_d2j5tl.jpg",
+            "payment_guide": [
+                {
+                    "image": "",
+                    "name": "Paso 1",
+                    "description": "Ingresar a la plataforma www.bncr.fi.cr",
+                    "link": "www.bncr.fi.cr",
+                    "alternative_text": "www.bncr.fi.cr"
+                },
+                {
+                    "image": "",
+                    "name": "Paso 2",
+                    "description": "Seleccionar “Pagos” – “Universidades” – “FUNDATEC”",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 3",
+                    "description": "Ingresar el número de identidad del estudiante",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 4",
+                    "description": "Hacer la cancelación",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 5",
+                    "description": "Recibir el comprobante en el correo electrónico",
+                    "link": "",
+                    "alternative_text": ""
+                }
+            ]
+        },
+        {
+            "name": "BCR",
+            "description": "Podés realizar los pagos en línea desde las plataformas del Banco Nacional, Banco Costa Rica, BAC y desde el sitio oficial de FundaTEC.",
+            "image": "",
+            "video": "https://www.youtube.com/watch?v=CaAx8ArNXpU",
+            "thumbnail": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1663008076/cdciudad/images/payments/bcr-thumb_xhp7o8.jpg",
+            "payment_guide": [
+                {
+                    "image": "",
+                    "name": "Paso 1",
+                    "description": "Ingresar a la plataforma www.bancobcr.com",
+                    "link": "www.bancobcr.com",
+                    "alternative_text": "www.bancobcr.com"
+                },
+                {
+                    "image": "",
+                    "name": "Paso 2",
+                    "description": "Seleccionar “Pagos de servicios” – “Educación” – “FUNDATEC”",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 3",
+                    "description": "Ingresar el número de identidad del estudiante",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 4",
+                    "description": "Hacer la cancelación",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 5",
+                    "description": "Recibir el comprobante en el correo electrónico",
+                    "link": "",
+                    "alternative_text": ""
+                }
+            ]
+        },
+        {
+            "name": "BAC",
+            "description": "Podés realizar los pagos en línea desde las plataformas del Banco Nacional, Banco Costa Rica, BAC y desde el sitio oficial de FundaTEC.",
+            "image": "",
+            "video": "https://www.youtube.com/watch?v=D2hH3EHjv0I",
+            "thumbnail": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1663008076/cdciudad/images/payments/bac-thumb_bllbyf.jpg",
+            "payment_guide": [
+                {
+                    "image": "",
+                    "name": "Paso 1",
+                    "description": "Ingresar a la plataforma www.baccredomatic.com",
+                    "link": "www.baccredomatic.com",
+                    "alternative_text": "www.baccredomatic.com"
+                },
+                {
+                    "image": "",
+                    "name": "Paso 2",
+                    "description": "Seleccionar “Pagar” – “Servicios” – “Instituciones académicas” – “FUNDATEC”",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 3",
+                    "description": "Ingresar el número de identidad del estudiante",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 4",
+                    "description": "Hacer la cancelación",
+                    "link": "",
+                    "alternative_text": ""
+                },
+                {
+                    "image": "",
+                    "name": "Paso 5",
+                    "description": "Recibir el comprobante en el correo electrónico",
+                    "link": "",
+                    "alternative_text": ""
+                }
+            ]
+        }
+    ]
 }

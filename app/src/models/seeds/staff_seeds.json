@@ -24,6 +24,175 @@
                 "phone": "(507) 343-3400",
                 "office_hours": "Employees come in long past 9:00 AM and leave before 5:00 PM"
             }
+        },
+        {
+            "name": "Alexander Soto Fallas",
+            "hello_there": "La cultura transforma las sociedades y el amor por lo que se hace transforma tu vida y la de los demás…",
+            "experience": "Tengo conocimientos y experiencia en actuación, recreación, técnicas pedagógicas y mercadeo; por más de una década me he dedicado a la gestión cultural en el cantón de Cartago, Costa Rica, y a la capacitación lúdica donde pueda compartir y disfrutar con las personas.",
+            "job": "Gestor y promotor socio-cultural",
+            "hobbies": [
+                "Lectura",
+                "Senderismo",
+                "Recreación"
+            ],
+            "staff_type": "Staff",
+            "years_of_experience": 14,
+            "banner_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653688792/cdciudad/images/staff/Alex/_DSC8373_uffry1.jpg",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1654058942/cdciudad/images/staff/Alex/_DSC8400_xc55zx.jpg",
+            "department": "Área de Gestión y Promoción Sociocultural",
+            "what_i_do": [
+                "Me encargo de las áreas de Programación artística, Desarrollo de festivales, Manejo técnico del equipo electrónico para espectáculos, Comunicación y mercadeo, y Acompañamiento de personas asistentes y voluntarias"
+            ],
+            "contact": {
+                "email": "michaelscott@mail.com",
+                "phone": "(507) 343-3400",
+                "office_hours": "Employees come in long past 9:00 AM and leave before 5:00 PM"
+            }
+        },
+        {
+            "name": "Diana Miranda Brenes",
+            "hello_there": "Las cosas buenas toman tiempo, sé paciente.",
+            "experience": "Trabajé en servicio al cliente por una temporada y he formado parte de Casa de la Ciudad como asistente en galería, oficina y asistencia especial.",
+            "job": "Estudiante de Ingeniería en Seguridad Laboral e Higiene Ambiental",
+            "hobbies": [
+                "Ejercicio",
+                "Jugar con mi perro",
+                "Dormir"
+            ],
+            "staff_type": "Staff",
+            "years_of_experience": 3,
+            "banner_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653688790/cdciudad/images/staff/Diana/_DSC8730_foyzud.jpg",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1654059108/cdciudad/images/staff/Diana/_DSC8725_ckjwue.jpg",
+            "department": "Área de Cursos",
+            "what_i_do": [
+                "Formo parte del Área de Cursos, solvento las necesidades de los estudiantes y acompaño a los asistentes de oficina."
+            ],
+            "contact": {
+                "email": "michaelscott@mail.com",
+                "phone": "(507) 343-3400",
+                "office_hours": "Employees come in long past 9:00 AM and leave before 5:00 PM"
+            }
+        },
+        {
+            "name": "Joyce Pérez Solano",
+            "hello_there": "La sencillez y naturalidad son el supremo y último fin de la cultura.",
+            "experience": "Estudié Secretariado Ejecutivo, tengo bachillerato en docencia de Educación I y II grado y en administración de recursos humanos.",
+            "job": "Técnico en Administración",
+            "hobbies": [
+                "Caminar",
+                "Zumba",
+                "Pasear",
+                "Yoga"
+            ],
+            "staff_type": "Staff",
+            "years_of_experience": 26,
+            "banner_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653688791/cdciudad/images/staff/Joyce/_DSC8535_wmvozc.jpg",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653688792/cdciudad/images/staff/Joyce/_DSC8528_x54eij.jpg",
+            "department": "Área de Secretaría",
+            "what_i_do": [
+                "Me encargo de las labores secretariales, apoyo al coordinador, me encargo del nombramiento de asistentes, planillas y todo lo relacionado con los certificados de los cursos.  Apoyo a los compañeros en las diferentes áreas."
+            ],
+            "contact": {
+                "email": "michaelscott@mail.com",
+                "phone": "(507) 343-3400",
+                "office_hours": "Employees come in long past 9:00 AM and leave before 5:00 PM"
+            }
+        },
+        {
+            "name": "Orlando Ramírez Mena",
+            "hello_there": "La limpieza ayuda a despejar la mente",
+            "experience": "Conocedor del mar y mundo, viajando por dos décadas como pescador. Amante del trabajo en el sector de conserjería y limpieza.",
+            "job": "Conserje",
+            "hobbies": [
+                "Fútbol",
+                "Futbolín",
+                "Acampar"
+            ],
+            "staff_type": "Staff",
+            "years_of_experience": 29,
+            "banner_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653688791/cdciudad/images/staff/Orlando/_DSC8440_bz0nwu.jpg",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1654059279/cdciudad/images/staff/Orlando/_DSC8424_akmlcy.jpg",
+            "department": "Área de Conserjería",
+            "what_i_do": [
+                "Conserjería y limpieza."
+            ],
+            "contact": {
+                "email": "michaelscott@mail.com",
+                "phone": "(507) 343-3400",
+                "office_hours": "Employees come in long past 9:00 AM and leave before 5:00 PM"
+            }
+        },
+        {
+            "name": "Randall Solano Araya",
+            "hello_there": "Realizando siempre las cosas de la mejor manera por satisfacción propia",
+            "experience": "Tengo cursos teórico-prácticos en seguridad y manejo de armas, también el curso de Seguridad K9 (manejo de perro policía). He laborado en seguridad residencial, seguridad empresarial y actualmente en seguridad patrimonial.",
+            "job": "Seguridad",
+            "hobbies": [
+                "Ejercicios",
+                "Películas",
+                "Comida"
+            ],
+            "staff_type": "Staff",
+            "years_of_experience": 15,
+            "banner_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1654059220/cdciudad/images/staff/Randall/_DSC8076_k0xroq.jpg",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1654059220/cdciudad/images/staff/Randall/_DSC8076_k0xroq.jpg",
+            "department": "Área de Vigilancia y Seguridad",
+            "what_i_do": [
+                "En el programa laboro en las tareas de seguridad, vigilancia y portería, además colaboro en trabajos de mantenimiento y jardinería en el edificio."
+            ],
+            "contact": {
+                "email": "michaelscott@mail.com",
+                "phone": "(507) 343-3400",
+                "office_hours": "Employees come in long past 9:00 AM and leave before 5:00 PM"
+            }
+        },
+        {
+            "name": "Sofía Valerín Rojas",
+            "hello_there": "El café con leche es como el café... pero con leche",
+            "experience": "Soy profesional de Ciencias Sociales y tengo estudios en el área de Administración de Empresas, es así que he trabajado en diferentes áreas de la gestión cultural, desde procesos creativos, hasta aspectos logísticos de programación de espectáculos, festivales, ferias y otros.",
+            "job": "Gestora Cultural, Antropóloga y Administradora de Empresas",
+            "hobbies": [
+                "Cine",
+                "Lectura",
+                "Naturaleza"
+            ],
+            "staff_type": "Staff",
+            "years_of_experience": 10,
+            "banner_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653688793/cdciudad/images/staff/Sof%C3%ADa/_DSC8496_bophhf.jpg",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653688792/cdciudad/images/staff/Sof%C3%ADa/_DSC8494_b8ado3.jpg",
+            "department": "Área de Gestión y Promoción Sociocultural",
+            "what_i_do": [
+                "En el programa me encargo del área de gestión sociocultural, además apoyo el programa de festivales, espectáculos y ferias, así como el apoyo a las diferentes labores administrativas de Casa de la Ciudad."
+            ],
+            "contact": {
+                "email": "michaelscott@mail.com",
+                "phone": "(507) 343-3400",
+                "office_hours": "Employees come in long past 9:00 AM and leave before 5:00 PM"
+            }
+        },
+        {
+            "name": "Elena Castillo Ulate",
+            "hello_there": "Soy la Coordinadora General de Casa de la Ciudad.",
+            "experience": "He trabajado dando cursos de canto popular y artes musicales, me gusta mucho el enfoque social de la música. He tenido por 10 años el coro ANCORA del Tecnológico.",
+            "job": "Gestora Cultural, Antropóloga y Administradora de Empresas",
+            "hobbies": [
+                "Música",
+                "Métodos vocales",
+                "Aprendizaje cultural"
+            ],
+            "staff_type": "Staff",
+            "years_of_experience": 12,
+            "banner_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653685186/cdciudad/images/teachers/Elena%20CU/_DSC9729_xxatlk.jpg",
+            "profile_picture": "https://res.cloudinary.com/casa-de-la-ciudad/image/upload/v1653686445/cdciudad/images/teachers/Elena%20CU/_DSC9736_tjdxvf.jpg",
+            "department": "Coordinación",
+            "what_i_do": [
+                "Coordinación General de Casa de la Ciudad. Administración financiera. Supervisión de la gestión en capacitación, programación artística y gestión sociocultural. Enlace con departamentos y autoridades del TEC, para la gestión e implementación de proyectos culturales."
+            ],
+            "contact": {
+                "email": "michaelscott@mail.com",
+                "phone": "(507) 343-3400",
+                "office_hours": "Employees come in long past 9:00 AM and leave before 5:00 PM"
+            }
         }
     ]
 }
