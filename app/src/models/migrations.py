@@ -13,7 +13,7 @@ from app.src.models.payment import Payment
 
 from app import logger
 
-db = MongoClient('mongodb://127.0.0.1:27017')['cdciudad']
+db = MongoClient('mongodb://db:27017')['cdciudad']
 seeds_path = 'app/src/models/seeds'
 
 
@@ -126,7 +126,10 @@ def migrate():
 def drop():
     collections = db.list_collection_names()
     for collection in collections:
-        db.drop_collection(collection)
+        if collection == 'subscribers':
+            pass
+        else:
+            db.drop_collection(collection)
 
 
 if __name__ == '__main__':
